@@ -603,7 +603,7 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
                 if(CLRFCount == 1 && inBody == 0){
                     contentLength = atoi(returnHeader(message, "Content-Length: "));
                     bodySoFar = malloc(contentLength);
-                    char * bodySoFar = strstr(message, "\r\n\r\n")+4;
+                    strncpy(bodySoFar, strstr(message, "\r\n\r\n")+4, strlen(strstr(message, "\r\n\r\n")+4));
                     int test = strlen(bodySoFar);
                     contentLength -= test;
                     inBody = 1;
@@ -615,10 +615,11 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
             if(inBody == 1 && CLRFCount == 0)
             {
                 contentLength -= readSize;
+                strncpy(bodySoFar, finalMessage, readSize);
             }
         }
 
-
+        //printf("%s\n", bodySoFar);
 
 
 
@@ -626,15 +627,12 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
         //printf("%d", CLRFCount);
         //printf("%s\n", message);
         //printf("%d\n", contentLength);
+        free(bodySoFar);
         free(finalMessage);
         free(message);
+        fclose(blacklist);
         return 0;
     }
-
-
-
-
-
     fclose(blacklist);
     return -1;
 
