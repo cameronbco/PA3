@@ -633,7 +633,7 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
             printf ( "Current local time and date: %s\n",  ctime( &rawtime ));
 
             int timeDiff = difftime(rawtime, attr.st_mtime );
-            if(timeDiff > timeout){
+            if(timeDiff >= timeout){
                 printf("Execution time = %d\n", timeDiff);
                 remove(path);
                 fp = fopen(path, "wb");
