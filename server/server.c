@@ -182,6 +182,7 @@ int beginRequest(int connfd){
         memset(&lowerCaseMessage, 0, MAXLINE);
         FD_ZERO(&testingTimeout);
         FD_SET(connfd, &testingTimeout);
+        free(finalMessage);
         int errNo;
         int check400; 
         int keepAlive;

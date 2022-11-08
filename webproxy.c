@@ -20,7 +20,7 @@
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <assert.h>
-
+#include <time.h>
 //#include "requestHandler.h"
 //#include "httpHeaders.h"
 
@@ -36,11 +36,12 @@ int attemptRequest(int connfd, char* URI,char* version,  char * request, int kee
 
 typedef struct
 {
-  bool done;
+  int done;
   pthread_mutex_t mutex;
 } shared_data;
 
 static shared_data* data = NULL;
+static shared_data* data2 = NULL;
 
 void initialise_shared()
 {
@@ -50,13 +51,29 @@ void initialise_shared()
     data = mmap(NULL, sizeof(shared_data), prot, flags, -1, 0);
     assert(data);
 
-    data->done = false;
+    data->done = 0;
 
     // initialise mutex so it works properly in shared memory
     pthread_mutexattr_t attr;
     pthread_mutexattr_init(&attr);
     pthread_mutexattr_setpshared(&attr, PTHREAD_PROCESS_SHARED);
     pthread_mutex_init(&data->mutex, &attr);
+}
+void initialise_shared2()
+{
+    // place our shared data in shared memory
+    int prot = PROT_READ | PROT_WRITE;
+    int flags = MAP_SHARED | MAP_ANONYMOUS;
+    data2 = mmap(NULL, sizeof(shared_data), prot, flags, -1, 0);
+    assert(data2);
+
+    data2->done = 0;
+
+    // initialise mutex so it works properly in shared memory
+    pthread_mutexattr_t attr;
+    pthread_mutexattr_init(&attr);
+    pthread_mutexattr_setpshared(&attr, PTHREAD_PROCESS_SHARED);
+    pthread_mutex_init(&data2->mutex, &attr);
 }
 
 
@@ -71,8 +88,9 @@ void checkStop(int signum){
     //printf("testing\n");
         int status = 0;
         pid_t wpid;
-        while(wpid = wait(&status) > 0);
+        while((wpid = wait(&status)) > 0);
         munmap(data, sizeof(data));
+        munmap(data2, sizeof(data2));
         exit(0);
 
 }
@@ -91,7 +109,7 @@ int main(int argc, char **argv){
     int timeout = atoi(argv[2]);
     struct sockaddr_in serveraddr; /* server's addr */
     struct sockaddr_in clientaddr; /* client addr */
-    int sockfd, optval, n, connfd;
+    int sockfd, optval, connfd;
     socklen_t clientLength;
     pid_t childPID;
     signal(SIGINT, checkStop);
@@ -105,6 +123,7 @@ int main(int argc, char **argv){
 
 
     initialise_shared();
+    initialise_shared2();
 
     optval = 1;
     setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, 
@@ -157,7 +176,8 @@ int main(int argc, char **argv){
 
     }
     printf("parent exiting\n");
-    munmap(data, sizeof(data)); 
+    munmap(data, sizeof(data));
+    munmap(data2, sizeof(data2)); 
     return -1;
 }
 char * returnHeader(char* request, char * desiredHeader){
@@ -168,6 +188,10 @@ char * returnHeader(char* request, char * desiredHeader){
         char * hostname = strtok(NULL, "\r\n");
         return hostname;
 }
+
+
+
+
 int beginRequest(int connfd, int timeout){
     int readSize;
     char message[MAXLINE];
@@ -198,7 +222,6 @@ int beginRequest(int connfd, int timeout){
     finalMessage = malloc(MAXLINE);
     while(1){
         setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char*)&timeAlive, sizeof(timeAlive));
-        int testRead;
         while((readSize = recv(connfd, finalMessage, MAXLINE, 0)) > 0){
             CLRFCount = 0;
             strncpy(message, finalMessage, readSize);
@@ -288,7 +311,10 @@ int beginRequest(int connfd, int timeout){
 
         
         else{
-            errNo = attemptRequest(connfd,URI, version, message, keepAlive, sizeof(message), sizeof(URI), timeout);
+
+
+            errNo = attemptRequest(connfd,URI, version, message, keepAlive, strlen(message), strlen(URI), timeout);
+            
             if(errNo != 0){
                 printf("error received while transmitting file\n");
             }
@@ -326,7 +352,6 @@ int beginRequest(int connfd, int timeout){
 
 
 int checkMessage(int connfd, char* method, char* URI, char* version, int errNO, int keepAlive){
-    int writeLength = 0;
     char getErrorHeader[MAXLINE];
     if(errNO == 400){
         char getError[MAXLINE] = "<!DOCTYPE html>\n<html>\n<title>400 Bad Request</title>\n<body>The request could not be parsed or is malformed</body>\n</html>";
@@ -448,6 +473,84 @@ unsigned long hash(char *str)
     return hash;
 }
 
+
+
+int sendFile(int connfd, char* URI,char* version, char* filename, int keepAlive){
+    FILE* fp;   
+    fp = fopen(filename, "rb");
+    
+    // SEND FILE NOW!
+    char contentHeader[MAXLINE];
+    int length = 0;
+    int filesize = 0;
+    
+    fseek(fp, 0, SEEK_END);
+    filesize = ftell(fp);
+    rewind(fp);
+    //CRAFTING HEADER.
+    char fileType[MAXLINE];
+    bzero(fileType, MAXLINE);
+    
+    if(URI[strlen(URI)-1] == '/'){
+        strcpy(fileType, "text/html");
+    }else{
+        getFileType(URI, fileType);
+    }
+    length += snprintf(contentHeader, MAXLINE, "%s 200 OK\r\n", version);
+    
+    length += snprintf(contentHeader+length, MAXLINE-length, "Content-Type: %s\r\n", fileType);
+    
+    if(keepAlive == 1 && forceStopChildren == 0){
+        length += snprintf(contentHeader+length, MAXLINE-length, "Connection: keep-alive\r\n");
+    }else if(keepAlive == 0 || forceStopChildren == 1){
+        length += snprintf(contentHeader+length, MAXLINE-length, "Connection: close\r\n");
+    }
+    length += snprintf(contentHeader+length, MAXLINE-length, "Content-Length: %u\r\n\r\n",  filesize);
+    send(connfd, contentHeader, strlen(contentHeader), 0);
+    //CRAFTING CONTENTS WITH FILE
+    char * transferBuf;
+    transferBuf = malloc(MAXLINE);  // use a malloc instead of a static array.
+
+
+
+    int test;
+    while(/*!feof(fp)*/filesize > 0){ // https://stackoverflow.com/questions/33783470/sending-picture-via-tcp
+        test = fread(transferBuf, 1, MAXLINE, fp);
+        if(test > 0){
+            if((test = send(connfd, transferBuf, test, 0) ) < 0){
+                perror("test");
+            }
+            filesize -= test;
+        }
+        else{
+            printf("%s\n", transferBuf);
+            break;
+        }
+        memset(transferBuf, 0, MAXLINE);
+    }
+    /*
+    FILE* testFile;
+    testFile = fopen("test.jpg", "wb");
+    fwrite(transferBuf, 1, sizeof(transferBuf), testFile);
+    fclose(testFile);
+    */
+
+    //printf("%ld\n");
+    printf("exiting file cache\n");
+    free(transferBuf);
+    //bzero(URI, MAXLINE);
+    fclose(fp);
+    return 0;
+
+
+}
+
+
+
+
+
+
+
 int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepalive, int requestSize, int URILength, int timeout){
     //printf("%s\n", request);
     struct timeval timeAlive;
@@ -458,69 +561,49 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
     blacklist = fopen("blacklist", "r");
     char line[253];
     size_t len = 0;
-    size_t sizeRead;
     int errNo;
     int hashRes;
     hashRes = hash(URI);
+
+
+    int length = snprintf( NULL, 0, "%d", hashRes );
+    char* str;
+    str = malloc( length + 1 );
+    snprintf( str, length + 1, "%d", hashRes );    
+
+
+
+
+
+    
+
+
     while(fgets(line, sizeof(line), blacklist)){
         len = strlen(line);
+        char * dub = malloc(strlen("www.")+strlen(destHostname));
+        strcpy(dub,"www.");
+        strcat(dub, destHostname);
         sscanf(line, "%[^\r\n]", line);
         sscanf(line, "%[^\n]", line);
-        if(strcmp(line, destHostname)==0){
+        if(strcmp(line, destHostname)==0 || strcmp(line, dub)==0){
             if((errNo = checkMessage(connfd, "GET", URI, version, 403, keepalive)) != 0){
+                free(dub);
                 return -1;
             }
             
         }
+        free(dub);
     }
+    fclose(blacklist);
     char hostbuffer[256];
     char hostbuffer2[256];
     strcpy(hostbuffer, destHostname);
     char *IP;
     struct hostent *host_entry;
-    int hostname;
 
-    int inCache = 0;
-    FILE * fp;
-    char * currDirectory;
 
-    /*
-    if(URI[strlen(URI)-1] == '/' || strcmp(URI, "") == 0 ){
-        if(S_ISDIR(statbuf.st_mode) !=0 && URI[strlen(URI)-1] != '/'){
-            strcat(currDirectory, "/");
-        }
-        strcat(currDirectory, "index.html");
-        if(access(currDirectory, F_OK)!=0){
-            currDirectory[strlen(currDirectory)-1] = '\0';
-            if(access(currDirectory, F_OK)!=0){
-            checkMessage(connfd, "GET", URI, version, 404, keepAlive);
-            return -1;  
-            }
-        }
-        if((fp = fopen(currDirectory, "rb"))==NULL){
-            if(access(currDirectory, F_OK)==0){
-                checkMessage(connfd, "GET", URI, version, 403, keepAlive);
-                return -1;
-            }
-            checkMessage(connfd, "GET", URI, version, 404, keepAlive);
-            return -1;
-        }
-    }
-    else{
-        if(S_ISDIR(statbuf.st_mode) != 0){
-                checkMessage(connfd, "GET", URI, version, 404, keepAlive);
-                return -1;          
-        }
-        if((fp = fopen(currDirectory, "rb")) == NULL){
-            if(access(currDirectory, F_OK)==0){
-                checkMessage(connfd, "GET", URI, version, 403, keepAlive);
-                return -1;
-            }
-            checkMessage(connfd, "GET", URI, version, 404, keepAlive);
-            return -1;
-        }
-    }
-    */
+
+
 
 
 
@@ -530,6 +613,44 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
     // To retrieve hostname
   
     // To retrieve host information
+
+
+
+    FILE * fp;
+    char * path = malloc(strlen("cache/") + strlen(str));
+    strcat(path, "cache/");
+    strcat(path, str);
+    printf("%s\n", path);
+
+
+    if(access(path, F_OK) == 0){
+            
+            struct stat attr;
+            stat(path, &attr);
+            printf("Last modified time: %s\n", ctime(&attr.st_mtime));
+            time_t rawtime;
+            rawtime = time ( NULL );
+            printf ( "Current local time and date: %s\n",  ctime( &rawtime ));
+
+            int timeDiff = difftime(rawtime, attr.st_mtime );
+            if(timeDiff > timeout){
+                printf("Execution time = %d\n", timeDiff);
+                remove(path);
+                fp = fopen(path, "wb");
+            }else{
+                sendFile(connfd, URI, version, path, keepalive); //sendFile(int connfd, char* URI,char* version, char* filename, int keepAlive)
+                printf("Execution time = %d\n", timeDiff);
+                free(path);
+                free(str);
+                return 0;
+            }
+    }else{
+        fp = fopen(path, "wb");
+    }
+    free(path);
+    free(str);
+
+
     char * prePort = strstr(destHostname, ":");
     int portno;
     if(prePort != NULL){
@@ -551,10 +672,8 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
     // To convert an Internet network
     // address into ASCII string
     struct sockaddr_in serveraddr; /* server's addr */
-    struct sockaddr_in clientaddr; /* client addr */
-    int sockfd2, optval, n;
-    socklen_t clientLength;
-    pid_t childPID;
+     /* client addr */
+    int sockfd2, optval;
     serveraddr.sin_family = AF_INET;
     serveraddr.sin_addr.s_addr = inet_addr(IP);
     serveraddr.sin_port = htons(portno);
@@ -563,25 +682,54 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
 	     (const void *)&optval , sizeof(int));
     if ((sockfd2 = socket (AF_INET, SOCK_STREAM, 0)) <0) {
         perror("Problem in creating the socket\n");
-        exit(-1);
+        close(sockfd2);
+        return -1;
     }
     if (connect(sockfd2, (struct sockaddr *) &serveraddr, sizeof(serveraddr))<0) {
         perror("Problem in connecting to the server");
-        exit(3);
+        checkMessage(connfd, "GET", URI, version, 403, keepalive);
+        close(sockfd2);
+        return -1;
     }
+
+
+
+
+
     int test;
     char * request2 = strstr(URI, "//")+2;
     char * request3 = strstr(request2, "/");
-    char * request4 = malloc(MAXLINE);
-    printf("%s\n", request3);
+    char request4[MAXLINE];
+    //printf("%s\n", request3);
     snprintf(request4, MAXLINE, "GET %s HTTP/1.0\r\n\r\n", request3);
-    printf("%s", request4);
+    //printf("%s", request4);
     if((test = send(sockfd2, request4, MAXLINE, 0) ) < 0){
-                perror("test");
+                perror("testErrorSend");
     }
 
 
 
+    //CRAFTING HEADER.
+    char fileType[MAXLINE];
+    bzero(fileType, MAXLINE);
+    char contentHeader[MAXLINE];
+    int length2 = 0;
+    if(URI[strlen(URI)-1] == '/'){
+        strcpy(fileType, "text/html");
+    }else{
+        getFileType(URI, fileType);
+    }
+    length2 += snprintf(contentHeader, MAXLINE, "%s 200 OK\r\n", version);
+    
+    length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Content-Type: %s\r\n", fileType);
+    
+    if(keepalive == 1 && forceStopChildren == 0){
+        length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Connection: keep-alive\r\n");
+    }else if(keepalive == 0 || forceStopChildren == 1){
+        length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Connection: close\r\n");
+    }
+    
+    
 
 
     char * finalMessage = malloc(MAXLINE);
@@ -590,50 +738,65 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
     int readSize = 0;
     int contentLength = 1;
     int inBody = 0;
-    char * body;
-    char * bodySoFar;
+
     while(1){
         setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char*)&timeAlive, sizeof(timeAlive));
-        while((readSize = recv(sockfd2, finalMessage, MAXLINE, 0)) > 0 && contentLength > 0){
+        while((readSize = recv(sockfd2, finalMessage, MAXLINE, 0)) > 0 || contentLength > 0){
             CLRFCount = 0;
             strncpy(message, finalMessage, readSize);
-            send(connfd, finalMessage, readSize, 0);
-            while(strstr(message, "\r\n\r\n") != NULL && inBody == 0){
+            //send(connfd, finalMessage, readSize, 0);
+            while(strstr(finalMessage, "\r\n\r\n") != NULL && inBody == 0){
                 CLRFCount += 1;
                 if(CLRFCount == 1 && inBody == 0){
                     contentLength = atoi(returnHeader(message, "Content-Length: "));
-                    bodySoFar = malloc(contentLength);
-                    strncpy(bodySoFar, strstr(message, "\r\n\r\n")+4, strlen(strstr(message, "\r\n\r\n")+4));
-                    int test = strlen(bodySoFar);
-                    contentLength -= test;
+                    char * check = strstr(finalMessage, "\r\n\r\n");
+                    length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Content-Length: %u\r\n\r\n",  contentLength);
+                    send(connfd, contentHeader, strlen(contentHeader), 0);
+                    check = check + 4;
+                    int header_length = check - finalMessage;
+                    fwrite(finalMessage+header_length, 1, readSize-header_length, fp);
+                    send(connfd, finalMessage+header_length, readSize-header_length, 0);
+                    contentLength -= (readSize - header_length);
                     inBody = 1;
                     if(contentLength == 0){
-                        return 0;
+                        break;
                     }
-                }  
+                } 
+
             }
+            
             if(inBody == 1 && CLRFCount == 0)
             {
+                fwrite(finalMessage, 1, readSize, fp);
+                send(connfd, finalMessage, readSize, 0);
                 contentLength -= readSize;
-                strncpy(bodySoFar, finalMessage, readSize);
             }
+            if(contentLength == 0){
+                break;
+            }
+            memset(finalMessage, 0, MAXLINE);
         }
-
-        //printf("%s\n", bodySoFar);
-
+        //sendFile(connfd, URI, version, path, keepalive);
 
 
 
         //printf("%d", CLRFCount);
         //printf("%s\n", message);
         //printf("%d\n", contentLength);
-        free(bodySoFar);
+        printf("exiting file write\n");
+        //free(request4);
+        close(sockfd2);
         free(finalMessage);
         free(message);
-        fclose(blacklist);
+        fclose(fp);
+        //fclose(blacklist);
         return 0;
     }
-    fclose(blacklist);
+    printf("exiting file write\n");
+    //fclose(blacklist);
     return -1;
 
 }
+
+
+

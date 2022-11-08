@@ -1,0 +1,4 @@
+HTTP/1.0 200 OK
+Content-Type: image/jpeg
+Connection: close
+Content-Length: 728350
