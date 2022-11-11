@@ -657,12 +657,14 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
         portno = atoi(prePort+1);
         strncpy(hostbuffer2, hostbuffer, (strlen(hostbuffer) - strlen(prePort)));
         hostbuffer2[strlen(hostbuffer) - strlen(prePort)] = '\0';
+        printf("%s\n", hostbuffer2);
         host_entry = gethostbyname(hostbuffer2);
     }
     else{
         strncpy(hostbuffer2, hostbuffer, strlen(hostbuffer));
         hostbuffer2[strlen(hostbuffer)] = '\0';
         portno = 80;
+        printf("%s\n", hostbuffer2);
         host_entry = gethostbyname(hostbuffer2);
     }
     // To convert an Internet network
@@ -685,12 +687,16 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
         perror("Problem in creating the socket\n");
         close(sockfd2);
         return -1;
+    }else{
+        printf("successfully created socket\n");
     }
     if (connect(sockfd2, (struct sockaddr *) &serveraddr, sizeof(serveraddr))<0) {
         perror("Problem in connecting to the server");
         checkMessage(connfd, "GET", URI, version, 403, keepalive);
         close(sockfd2);
         return -1;
+    }else{
+        printf("successfully connected to host\n");
     }
 
 
@@ -702,13 +708,13 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
     char * request3 = strstr(request2, "/");
     char request4[MAXLINE];
     //printf("%s\n", request3);
-    snprintf(request4, MAXLINE, "GET %s HTTP/1.0\r\n\r\n", request3);
+    snprintf(request4, MAXLINE, "GET %s HTTP/1.0\r\nHost: %s\r\n\r\n", request3, hostbuffer2);
     //printf("%s", request4);
     if((test = send(sockfd2, request4, MAXLINE, 0) ) < 0){
                 perror("testErrorSend");
     }
 
-
+    printf("request: %s\n", request4);
 
     //CRAFTING HEADER.
     char fileType[MAXLINE];
@@ -720,15 +726,8 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
     }else{
         getFileType(URI, fileType);
     }
-    length2 += snprintf(contentHeader, MAXLINE, "%s 200 OK\r\n", version);
+
     
-    length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Content-Type: %s\r\n", fileType);
-    
-    if(keepalive == 1 && forceStopChildren == 0){
-        length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Connection: keep-alive\r\n");
-    }else if(keepalive == 0 || forceStopChildren == 1){
-        length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Connection: close\r\n");
-    }
     
 
 
@@ -738,30 +737,53 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
     int readSize = 0;
     int contentLength = 1;
     int inBody = 0;
-   
+    int noContentHeader = 0;
     while(1){
-        
+        //pthread_mutex_lock(&data->mutex);
         setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char*)&timeAlive, sizeof(timeAlive));
-        while((readSize = recv(sockfd2, finalMessage, MAXLINE, 0)) > 0 || contentLength > 0){
+        while((readSize = recv(sockfd2, finalMessage, MAXLINE, 0)) > 0 && contentLength > 0){
             CLRFCount = 0;
             strncpy(message, finalMessage, readSize);
+            //printf("%s\n", finalMessage);
             //send(connfd, finalMessage, readSize, 0);
+            
             while(strstr(finalMessage, "\r\n\r\n") != NULL && inBody == 0){
                 CLRFCount += 1;
                 if(CLRFCount == 1 && inBody == 0){
+                    if(strstr(finalMessage, "404 Not Found" ) != NULL){
+                        length2 += snprintf(contentHeader, MAXLINE, "%s 400 Not Found\r\n", version);
+                    }
+                    else{
+                       length2 += snprintf(contentHeader, MAXLINE, "%s 200 OK\r\n", version); 
+                    }
+                    length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Content-Type: %s\r\n", fileType);
+                    if(keepalive == 1 && forceStopChildren == 0){
+                    length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Connection: keep-alive\r\n");
+                    }else if(keepalive == 0 || forceStopChildren == 1){
+                    length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Connection: close\r\n");
+                    }
                     contentLength = atoi(returnHeader(message, "Content-Length: "));
+                    if(contentLength ==0 && strstr(finalMessage, "Content-Length: ") == NULL){
+                        noContentHeader = 1;
+                    }else{
+                        length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Content-Length: %u\r\n\r\n",  contentLength);
+                    }
+                    //printf("%d\n", contentLength);
                     char * check = strstr(finalMessage, "\r\n\r\n");
-                    length2 += snprintf(contentHeader+length2, MAXLINE-length2, "Content-Length: %u\r\n\r\n",  contentLength);
+                    
                     send(connfd, contentHeader, strlen(contentHeader), 0);
                     check = check + 4;
                     int header_length = check - finalMessage;
                     fwrite(finalMessage+header_length, 1, readSize-header_length, fp);
-                    send(connfd, finalMessage+header_length, readSize-header_length, 0);
-                    contentLength -= (readSize - header_length);
-                    inBody = 1;
-                    if(contentLength == 0){
-                        break;
+                    write(connfd, finalMessage+header_length, readSize-header_length);
+                    if(noContentHeader == 0){
+                        contentLength -= (readSize - header_length);
+                    }else{
+                        contentLength = 1;
                     }
+                    
+                    //printf("%s\n", finalMessage+header_length);
+                    inBody = 1;
                 } 
 
             }
@@ -770,15 +792,16 @@ int attemptRequest(int connfd, char* URI,char* version,char* request,  int keepa
             {
                 fwrite(finalMessage, 1, readSize, fp);
                 send(connfd, finalMessage, readSize, 0);
-                contentLength -= readSize;
-            }
-            if(contentLength == 0){
-                break;
+                if(noContentHeader == 0){
+                    contentLength -= readSize;
+                }
+                
             }
             memset(finalMessage, 0, MAXLINE);
         }
+        //pthread_mutex_unlock(&data->mutex);
         //sendFile(connfd, URI, version, path, keepalive);
-
+        printf("%d\n", contentLength);
 
 
         //printf("%d", CLRFCount);
