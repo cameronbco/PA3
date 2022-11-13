@@ -1,0 +1,929 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Small Planet Store</title>
+		<meta http-equiv="Content-Type"
+			content="text/html; charset=utf-8"/>
+		<meta name="description" content="Book Club, Bread and Roses strike, videos, books, and other materials for teachers and students. Practical guides for teaching and learning."/>
+		<meta name="keywords" content="Bread and Roses, strike, Lawrence, MA, 1912, books, Book Club, teacher, student, education, school, video, journal, Planet Book Club, Small Planet Store, Teaching Resources, publishing"/>
+		<meta name="author" content="Small Planet Communications, Inc."/>
+		<link href="../css/style-all.css" rel="stylesheet" type="text/css"/>
+		<link rel="shortcut icon" href="../images/favicon.ico"/>
+		<script type="text/javascript" src="../js/anime.js"></script>
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+	    <div id="logo"><a href="http://www.smplanet.com/"><img src="../images/SP_logo.gif" class="no-border" width="125px" height="113px" alt="Small Planet Communications, Inc." title="Home"/></a></div>
+
+<div id="info_line">
+
+<p class="header">Small Planet Communications, Inc. <span class="red1">+</span> 15 Union Street, Lawrence, MA 01840 <span class="red1">+</span> (978) 794-2201 <span class="red1">+</span> <a href="http://www.smplanet.com/contact">Contact</a></p>
+</div>
+
+<div id="navigation">
+<ul id="nav">
+	<li><a href="http://www.smplanet.com/">HOME</a></li>
+	<li><a href="http://www.smplanet.com/teaching/">TEACHING RESOURCES</a>
+		<ul>
+		<li><a href="http://www.smplanet.com/teaching/bookclub">Book Club</a></li>
+		<li><a href="http://www.smplanet.com/teaching/imperialism/">The Age of Imperialism</a></li>
+		<li><a href="http://www.smplanet.com/teaching/colonialamerica/">Colonial America</a></li>
+		<li><a href="http://www.smplanet.com/teaching/thegreatstrike/">The Great Strike</a></li>
+		<li><a href="http://www.smplanet.com/teaching/msassessment/">Science for Middle School</a></li>
+		<li><a href="http://www.smplanet.com/teaching/planets/">The Solar System</a></li>
+		<li><a href="http://www.smplanet.com/teaching/science/">Comet Shoemaker-Levy 9</a></li>
+		<li><a href="http://www.smplanet.com/teaching/civilwar">The Civil War: Lesson Plan</a></li>
+		<li><a href="http://www.smplanet.com/teaching/webpage">Create Your Own Web Page</a></li>
+		<li><a href="http://www.smplanet.com/teaching/teachers">Links for Teachers</a></li>
+		<li><a href="http://www.smplanet.com/teaching/kids">Links for Kids</a></li>
+		<li><a href="http://www.smplanet.com/teaching/parents">Links and Information for Parents</a></li>
+		</ul>
+	</li>
+	<li><a href="http://www.smplanet.com/development/">DEVELOPMENT SERVICES</a>
+		<ul>
+		<li><a href="http://www.smplanet.com/development/editorial">Content and Editorial</a></li>
+		<li><a href="http://www.smplanet.com/development/design">Design and Production</a></li>
+		<li><a href="http://www.smplanet.com/development/digital">Digital and Technology</a></li>
+		<li><a href="http://www.smplanet.com/development/clients">Clients</a></li>
+		</ul>
+	</li>	
+	<li><a href="http://www.smplanet.com/store/"><span class="red1">STORE</span></a>
+		<ul>
+		<li><a href="http://www.smplanet.com/store/greatstrike">The Great Strike</a></li>
+		<li><a href="http://www.smplanet.com/store/imperialism">The Age of Imperialism</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclubsecond">Book Club: A Literature-Based Curriculum</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclubplus">Book Club Plus!</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclubmiddle">Book Club for Middle School</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclublogs">Book Club Student Reading Log</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclublogs#video">Book Club Video</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclubguides">Book Club Novel Guides</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclubonline">Book Club Online Novel Guides</a></li>
+		</ul>
+	</li>
+	<li><a href="http://www.smplanet.com/planetbookclub/">PLANET BOOK CLUB</a>
+		<ul>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/about">About</a></li>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/ccss/">Common Core Standards</a></li>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/methodology">Methodology</a></li>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/articles">Professional Development</a></li>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/novels/">Novels</a></li>
+		</ul>
+	</li>
+</ul>
+</div>
+<!-- end #header --></div>
+
+<div id="overview">
+<img src="images/header_store.jpg" width="810" height="135" alt="Small Planet Communications, Inc. Store"/>
+<br class="clearfloat" />
+<div class="store_main">
+<div class="store_side">
+<p><a href="javascript:SE_images('../teaching/thegreatstrike/SE_images.html');" title="The Great Strike 1912 (Bread and Roses) Student Edition"><img id="BigOne" class="outline" src="../teaching/images/SE_TheGreatStrike-2.jpg" width="150" height="195" alt="Great Strike SE"/></a></p>
+<a href="javascript:SE_images('../teaching/thegreatstrike/SE_images.html');" title="The Great Strike 1912 (Bread and Roses) Student Edition">
+<img src="../teaching/images/SE_TheGreatStrike-7_th.jpg" onmouseover="Change_Big_One(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/SE_TheGreatStrike-2_th.jpg" onmouseover="Change_Big_One(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/SE_TheGreatStrike-9_th.jpg" onmouseover="Change_Big_One(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/SE_TheGreatStrike-20_th.jpg" onmouseover="Change_Big_One(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/SE_TheGreatStrike-31_th.jpg" onmouseover="Change_Big_One(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/SE_TheGreatStrike-36_th.jpg" onmouseover="Change_Big_One(this)" class="border" width="30" height="39" alt=""/></a>
+<p class="extra-top"><a class="small" href="javascript:SE_images('../teaching/thegreatstrike/SE_images.html');">Click for larger images and other views</a></p></div>
+<h2 class="store_indent">The Great Strike - <em>Student Edition</em></h2>
+<p class="store_indent">In the full-color <em>Student Edition,</em> students read an engaging narrative of the major events of the strike. They meet the seasoned labor leaders who helped organize thousands of workers— many of them recent immigrants speaking a dozen different languages—into a unified force for change. Students also meet some of the teenagers who left school to take grueling factory jobs, earning a few dollars a week to keep food on their families’ tables. Photographs, maps, and graphs support the text on every page. Side-column notes and questions provide point-of-use support. <a href="http://www.smplanet.com/store/greatstrike">For more information...</a></p>
+<p class="store_indent"><strong>Publisher:</strong> Small Planet Communications, Inc.; 1st edition (2012)</p>
+<p class="store_indent"><strong>Language:</strong> English</p>
+<p class="store_indent"><strong>Paperback:</strong> 48 pages (ISBN: 978-1-931376-36-5)</p>
+<p class="store_indent"><strong>Price:</strong> $12.00 each (Quantity 6 or more $9.00 each)</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1117307&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> 50 pages (ISBN: 978-1-931376-38-9)</p>
+<p class="store_indent"><strong>Price:</strong> $6.95 each (For site-license information, <br/>please call 1-800-475-9486.)</p>
+<p  class="store_indent"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1117287&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+
+<div class="store_main">
+<div class="store_side">
+<p><a href="javascript:TG_images('../teaching/thegreatstrike/TG_images.html');" title="The Great Strike 1912 (Bread and Roses) Teacher's Guide"><img id="BigOne1" class="outline" src="../teaching/images/TG_TheGreatStrike.jpg" width="150" height="195" alt=""/></a></p>
+<a href="javascript:TG_images('../teaching/thegreatstrike/TG_images.html');" title="The Great Strike 1912 (Bread and Roses) Teacher's Guide">
+<img src="../teaching/images/TG_TheGreatStrike-3_th.jpg" onmouseover="Change_Big_One1(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/TG_TheGreatStrike_th.jpg" onmouseover="Change_Big_One1(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/TG_TheGreatStrike-9_th.jpg" onmouseover="Change_Big_One1(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/TG_TheGreatStrike-12_th.jpg" onmouseover="Change_Big_One1(this)" class="border" width="30" height="39" alt=""/></a>
+<p class="extra-top"><a class="small" href="javascript:TG_images('../teaching/thegreatstrike/TG_images.html');">Click for larger images and other views</a></p></div>
+<h2 class="store_indent">The Great Strike - <em>Teacher’s Guide</em></h2>
+<p class="store_indent"><em>The Teacher’s Guide</em> includes resources for introducing the student text, promoting understanding, and assessing and extending learning. It provides a correlation to Common Core Standards and NCSS Themes. Reproducible blackline masters allow students to delve into primary sources and to review key terms and ideas. <a href="http://www.smplanet.com/store/greatstrike#te">For more information...</a></p>
+<p class="store_indent"><strong>Publisher:</strong> Small Planet Communications, Inc.; 1st edition (2012)</p>
+<p class="store_indent"><strong>Language:</strong> English</p>
+<p class="store_indent"><strong>Paperback:</strong> 16 pages (ISBN: 978-1-931376-37-2)</p>
+<p class="store_indent"><strong>Price:</strong> $6.00</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1117320&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> 16 pages (ISBN: 978-1-931376-39-6)</p>
+<p class="store_indent"><strong>Price:</strong> $3.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1117325&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<!-- end #mainContent --></div>
+<hr class="space-6"/>
+
+<div class="store_main">
+<div class="store_side">
+<p><a href="javascript:TG_images('../teaching/tgimperialism/TG_images.html');" title="The Age of Imperialism Teacher's Guide"><img id="BigOne7" class="outline" src="../teaching/images/TG_Imperialism.jpg" width="150" height="195" alt=""/></a></p>
+<a href="javascript:TG_images('../teaching/tgimperialism/TG_images.html');" title="The Age of Imperialism Teacher's Guide">
+<img src="../teaching/images/TG_Imperialism-2_th.jpg" onmouseover="Change_Big_One7(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/TG_Imperialism_th.jpg" onmouseover="Change_Big_One7(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/TG_Imperialism-T2i_th.jpg" onmouseover="Change_Big_One7(this)" class="border" width="30" height="39" alt=""/>
+<img src="../teaching/images/TG_Imperialism-3_th.jpg" onmouseover="Change_Big_One7(this)" class="border" width="30" height="39" alt=""/></a>
+<p class="extra-top"><a class="small" href="javascript:TG_images('../teaching/tgimperialism/TG_images.html');">Click for larger images and other views</a></p></div>
+<h2 class="store_indent">The Age of Imperialism <em>Teacher’s Guide</em></h2>
+<p class="store_indent"><em>The Teacher’s Guide</em> includes resources for introducing the student text, promoting understanding, and assessing and extending learning. It provides a correlation to Common Core Standards and NCSS Themes. Reproducible blackline masters allow students to delve into primary sources and to review key terms and ideas. <a href="http://www.smplanet.com/store/imperialism.html">For more information...</a></p>
+<p class="store_indent"><strong>Publisher:</strong> Small Planet Communications, Inc.; 1st edition (2015)</p>
+<p class="store_indent"><strong>Language:</strong> English</p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> 26 pages (ISBN: 978-1-931376-44-0)</p>
+<p class="store_indent"><strong>Price:</strong> $2.00</p>
+
+<p class="store_indent2">
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=134523&i=1455207" target="ej_ejc" class="ec_ejc_thkbx" onclick="return EJEJC_lc(this);"><img src="https://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"></a>
+
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=134523" target="ej_ejc" class="ec_ejc_thkbx" onclick="return EJEJC_lc(this);"><img src="https://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"></a>
+<script type="text/javascript">
+function EJEJC_lc(th) { return false; };
+</script>
+<script src="https://www.e-junkie.com/ecom/box.js" type="text/javascript"></script>
+
+<!-- end #mainContent --></div>
+<hr class="space-6"/>
+
+<div class="store_main">
+<div class="store_side">
+<p><a href="javascript:SE_images('BC_2nd_samples.html');" title="Book Club: A Literature-Based Curriculum"><img id="BigOne2" class="outline" src="images/BC_2nd_samples.jpg" width="150" height="198" alt="Book Club: A Literature-Based Curriculum"/></a></p>
+
+<a href="javascript:SE_images('BC_2nd_samples.html');" title="Book Club: A Literature-Based Curriculum">
+<img src="images/BC_2nd_samples-1_th.jpg" onmouseover="Change_Big_One2(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_2nd_samples_th.jpg" onmouseover="Change_Big_One2(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_2nd_samples-2_th.jpg" onmouseover="Change_Big_One2(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_2nd_samples-3_th.jpg" onmouseover="Change_Big_One2(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_2nd_samples-4_th.jpg" onmouseover="Change_Big_One2(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_2nd_samples-5_th.jpg" onmouseover="Change_Big_One2(this)" class="border" width="30" height="40" alt=""/></a>
+<p class="extra-top"><a class="small" href="javascript:SE_images('BC_2nd_samples.html');">Click for larger images and other views</a></p>
+</div>
+<h2 class="store_indent">Book Club: A Literature-Based Curriculum</h2>
+<p class="store_indent"><em>Book Club: A Literature-Based Curriculum</em> distills years of classroom-centered research into a practical guide for implementing Book Club in your grade 3 through 6 classroom. The handbook shows you how to seamlessly integrate instruction in reading, writing, speaking, and listening. Features include comprehensive background information, teaching tips, detailed lesson plans based on award-winning trade books, assessment rubrics, and reproducible blackline masters. <a href="http://www.smplanet.com/store/bookclubsecond">For more information...</a></p>
+<p class="store_indent"><strong>Publisher:</strong> Small Planet Communications, Inc.; 2nd edition (2002)</p>
+<p class="store_indent"><strong>Language:</strong> English</p>
+<p class="store_indent"><strong>Paperback:</strong> 296 pages (ISBN: 1-931376-07-7)</p>
+<p class="store_indent"><strong>Price:</strong> $29.95</p>
+<p class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802048&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook:</strong> ISBN: 978-1-931376-42-6</p>
+<p class="store_indent"><strong>Price:</strong> $15.00</p>
+<p class="store_indent"><strong><a href="http://www.smplanet.com/store/ebook-format" target="_blank" title="Learn more about the EPUB file format (open, read, devices, apps) by clicking the link.">EPUB</a> file</strong> requires <strong>iBooks</strong> or other <a href="http://en.wikipedia.org/wiki/EPUB#Software_reading_systems" target="_blank"> compatible reader</a></p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1273226&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong><a href="http://www.smplanet.com/store/ebook-format" target="_blank" title="Learn more about the MOBI file format (open, read, devices, apps) by clicking the link.">MOBI</a> file</strong> requires a <strong>Kindle</strong> Reading App from amazon.com</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1273228&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+
+
+<hr class="space-6"/>
+</div>
+
+<div class="store_main">
+<div class="store_side">
+<p><a href="javascript:SE_images('BC_p_samples.html');" title="Book Club Plus!"><img id="BigOne3" class="outline" src="images/BC_p_samples.jpg" width="150" height="198" alt=""/></a></p>
+<a href="javascript:SE_images('BC_p_samples.html');" title="Book Club Plus!">
+<img src="images/BC_p_samples-1_th.jpg" onmouseover="Change_Big_One3(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_p_samples_th.jpg" onmouseover="Change_Big_One3(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_p_samples-2_th.jpg" onmouseover="Change_Big_One3(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_p_samples-3_th.jpg" onmouseover="Change_Big_One3(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_p_samples-4_th.jpg" onmouseover="Change_Big_One3(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_p_samples-5_th.jpg" onmouseover="Change_Big_One3(this)" class="border" width="30" height="40" alt=""/></a>
+<p class="extra-top"><a class="small" href="javascript:SE_images('BC_p_samples.html');">Click for larger images and other views</a></p>
+</div>
+<h2 class="store_indent">Book Club Plus! A Literacy Framework for the Primary Grades</h2>
+<p class="store_indent"><em>Book Club Plus! A Literacy Framework for the Primary Grades</em> builds on solid methodology and 10 years of classroom research. Book Club Plus! presents a framework for instruction that allows primary-grade teachers to achieve important goals. <a href="http://www.smplanet.com/store/bookclubplus">For more information...</a></p>
+<p class="store_indent"><strong>Publisher:</strong> Small Planet Communications, Inc.; 1st edition (2004)</p>
+<p class="store_indent"><strong>Language:</strong> English</p>
+<p class="store_indent"><strong>Paperback:</strong> 343 pages (ISBN: 1-931376-35-2)</p>
+<p class="store_indent"><strong>Price:</strong> $29.95</p>
+<p class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802327&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook:</strong> ISBN: 978-1-931376-41-9</p>
+<p class="store_indent"><strong>Price:</strong> $15.00</p>
+<p class="store_indent"><strong><a href="http://www.smplanet.com/store/ebook-format" target="_blank" title="Learn more about the EPUB file format (open, read, devices, apps) by clicking the link.">EPUB</a> file</strong> requires <strong>iBooks</strong> or other  <a href="http://en.wikipedia.org/wiki/EPUB#Software_reading_systems" target="_blank"> compatible reader</a></p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1271323&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong><a href="http://www.smplanet.com/store/ebook-format" target="_blank" title="Learn more about the MOBI file format (open, read, devices, apps) by clicking the link.">MOBI</a> file</strong> requires a <strong>Kindle</strong> Reading App from amazon.com</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1271324&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+
+<hr class="space-6"/>
+</div>
+<div class="store_main">
+<div class="store_side">
+<p><a href="javascript:SE_images('BC_ms_samples.html');" title="Book Club for Middle School">
+<img id="BigOne4" class="outline" src="images/BC_ms_samples.jpg" width="150" height="198" alt=""/></a></p>
+<a href="javascript:SE_images('BC_ms_samples.html');" title="Book Club for Middle School">
+<img src="images/BC_ms_samples-1_th.jpg" onmouseover="Change_Big_One4(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_ms_samples_th.jpg" onmouseover="Change_Big_One4(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_ms_samples-2_th.jpg" onmouseover="Change_Big_One4(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_ms_samples-3_th.jpg" onmouseover="Change_Big_One4(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_ms_samples-4_th.jpg" onmouseover="Change_Big_One4(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_ms_samples-5_th.jpg" onmouseover="Change_Big_One4(this)" class="border" width="30" height="40" alt=""/></a>
+<p class="extra-top"><a class="small" href="javascript:SE_images('BC_ms_samples.html');">Click for larger images and other views</a></p>
+</div>
+<h2 class="store_indent">Book Club for Middle School</h2>
+<p class="store_indent"><em>Book Club for Middle School</em> is your indispensible guide to implementing Book Club in the middle-level classroom (grades 6 through 8). Adolescent learners have unique interests, needs, and strengths. <em>Book Club for Middle School</em> shows you how Book Club can address and make the best of these traits. Topics include current theories about literacy, balanced literacy curriculum, components of the Book Club program, developmental needs of adolescents, strategies for both proficient and struggling readers, authentic assessment, standards-based assessment, classroom management, scheduling options, team teaching, and grouping. <a href="http://www.smplanet.com/store/bookclubmiddle">For more information...</a></p> 
+<p class="store_indent"><strong>Publisher:</strong> Small Planet Communications, Inc.; 1st edition (2001)</p>
+<p class="store_indent"><strong>Language:</strong> English</p>
+<p class="store_indent"><strong>Paperback:</strong> 202 pages (ISBN: 0-9656211-2-X)</p>
+<p class="store_indent"><strong>Price:</strong> $29.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802328&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook:</strong> ISBN: 978-1-931376-43-3</p>
+<p class="store_indent"><strong>Price:</strong> $15.00</p>
+<p class="store_indent"><strong><a href="http://www.smplanet.com/store/ebook-format" target="_blank" title="Learn more about the EPUB file format (open, read, devices, apps) by clicking the link.">EPUB</a> file </strong> requires <strong>iBooks</strong> or other <a href="http://en.wikipedia.org/wiki/EPUB#Software_reading_systems" target="_blank"> compatible reader</a></p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1271615&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong><a href="http://www.smplanet.com/store/ebook-format" target="_blank" title="Learn more about the MOBI file format (open, read, devices, apps) by clicking the link.">MOBI</a> file </strong> requires a <strong>Kindle</strong> Reading App from amazon.com</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=1271616&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+
+<hr class="space-6"/>
+</div>
+<div class="store_main">
+<div class="store_side">
+<p><a href="javascript:SE_images('BC_RL_samples.html');" title="Book Club Student Reading Log"><img id="BigOne5" class="outline" src="images/BC_RL_samples.jpg" width="150" height="193" alt=""/></a></p>
+<a href="javascript:SE_images('BC_RL_samples.html');" title="Book Club Student Reading Log">
+<img src="images/BC_RL_samples-1_th.jpg" onmouseover="Change_Big_One5(this)" class="border" width="30" height="39" alt=""/>
+<img src="images/BC_RL_samples_th.jpg" onmouseover="Change_Big_One5(this)" class="border" width="30" height="39" alt=""/>
+<img src="images/BC_RL_samples-2_th.jpg" onmouseover="Change_Big_One5(this)" class="border" width="30" height="39" alt=""/>
+<img src="images/BC_RL_samples-3_th.jpg" onmouseover="Change_Big_One5(this)" class="border" width="30" height="39" alt=""/>
+<img src="images/BC_RL_samples-4_th.jpg" onmouseover="Change_Big_One5(this)" class="border" width="30" height="39" alt=""/>
+<img src="images/BC_RL_samples-5_th.jpg" onmouseover="Change_Big_One5(this)" class="border" width="30" height="39" alt=""/></a>
+<p class="extra-top"><a class="small" href="javascript:SE_images('BC_RL_samples.html');">Click for larger images and other views</a></p></div>
+<h2 class="store_indent">Book Club Student Reading Log</h2>
+<p class="store_indent"><em>Book Club Reading Logs</em> help students explore and organize ideas as they participate in Book Club. The logs help them respond to literature and prepare for discussions. They also prompt them to plan research, set goals, and assess their work.</p>
+<p class="store_indent">The <em>Book Club Reading Logs</em> combine thirteen think sheets and two self-assessment pages with open-ended journal pages to enhance your students’ Book Club experience. Think sheets are carefully chosen to complement the Book Club methodology.</p>
+<p class="store_indent">Each <em>Reading Log</em> contains 32 pages and features a handy inside pocket appropriately sized for handouts and student portfolios. The log books are sold in packages of ten. <a href="http://www.smplanet.com/store/bookclublogs">For more information...</a></p>
+<p class="store_indent"><strong>Publisher:</strong> Small Planet Communications, Inc.</p>
+<p class="store_indent"><strong>Language:</strong> English</p>
+<p class="store_indent"><strong>Paperback:</strong> 32 pages (ISBN: 1-931376-16-6)</p>
+<p class="store_indent"><strong>Price:</strong> $24.00 (Pack of 10)</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802330&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<div class="store_main">
+<div class="store_side">
+<p><a href="javascript:SE_images('BC_NG_samples.html');" title="Book Club Novel Guides"><img id="BigOne6" class="outline" src="images/BC_NG_samples.jpg" width="150" height="197" alt=""/></a></p>
+<a href="javascript:SE_images('BC_NG_samples.html');" title="Book Club Novel Guides">
+<img src="images/BC_NG_samples-1_th.jpg" onmouseover="Change_Big_One6(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_NG_samples_th.jpg" onmouseover="Change_Big_One6(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_NG_samples-2_th.jpg" onmouseover="Change_Big_One6(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_NG_samples-3_th.jpg" onmouseover="Change_Big_One6(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_NG_samples-4_th.jpg" onmouseover="Change_Big_One6(this)" class="border" width="30" height="40" alt=""/>
+<img src="images/BC_NG_samples-5_th.jpg" onmouseover="Change_Big_One6(this)" class="border" width="30" height="40" alt=""/></a>
+<p class="extra-top"><a class="small" href="javascript:SE_images('BC_NG_samples.html');">Click for larger images and other views</a></p></div>
+<h2 class="store_indent">Book Club Novel Guides</h2>
+<p class="store_indent">Book Club novel guides provide all the support you need to get your students reading and talking about great books. The books have been carefully selected as suitable for students’ book club discussions—each one has plenty of content to sustain meaningful conversations. Novel guides provide information for the teacher including book summaries, thematic links, and related readings. Each novel guide also places the teaching of the novel in the context of a larger thematic unit. Daily lesson plans include reading assignments, detailed lessons tied to the language arts curriculum, and journal-writing prompts for students. Blackline masters range from student goal setting and self-assessment to support for novel-related writing assignments. <a href="http://www.smplanet.com/store/bookclubguides">For more information...</a></p>
+<p class="store_indent">The following Book Club Novel Guides are <strong>currently available:</strong></p>
+</div>
+<a name="terabithia"></a><div class="store_main">
+<img class="outline" src="images/terabithia_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Bridge to Terabithia</em> by Katherine Paterson</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Bridge to Terabithia.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-25-5</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802346&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 0-931376-24-7</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802349&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="buddy_online"></a><div class="store_main">
+<img class="outline" src="images/bud_online_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club <u>Online</u> Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Bud, Not Buddy</em> by Christopher Paul Curtis</p>
+    <p class="store_indent"><strong>NEW!</strong> This guide shows you how to teach a Book Club unit online with theme-based activities centered on the novel <em>Bud, Not Buddy.</em> Whether you teach the entire extended unit or just the Book Club lessons, you'll have the instructional materials you need to guide students either remotely or in a hybrid schedule.</p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 978-1-931376-45-7</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href='https://www.e-junkie.com/ecom/gb.php?&c=cart&ejc=2&cl=134523&i=1680883' onclick='return EJEJC_lc(this);' style='display:inline-block;background: #3da5d9 url(https://www.e-junkie.com/ej/images/newaddtocart.png) center/100px no-repeat;border: none;padding: 7px 55px;border-radius: 3px;box-shadow: 1px 2px 2px rgba(0,0,0,0.2);text-decoration: none;' target='ej_ejc' class='ec_ejc_thkbx' alt="Add to Cart">&nbsp;</a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=134523" target="ej_ejc" class="ec_ejc_thkbx" onclick="return EJEJC_lc(this);" style="display:inline-block;background: #3da5d9 url(https://www.e-junkie.com/ej/images/newviewcart.png) center/90px no-repeat;border: none;padding: 7px 55px;border-radius: 3px;box-shadow: 1px 2px 2px rgba(0,0,0,0.2);cursor: pointer;text-decoration: none;" alt="View Cart">&nbsp;</a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="buddy"></a><div class="store_main">
+<img class="outline" src="images/bud_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Bud, Not Buddy</em> by Christopher Paul Curtis</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Bud, Not Buddy.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-15-8</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802353&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-06-9</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802357&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="cay"></a><div class="store_main">
+<img class="outline" src="images/cay_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">The Cay</em> by Theodore Taylor</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>The Cay.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-21-2</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802795&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-02-6</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802812&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="holes"></a><div class="store_main">
+<img class="outline" src="images/holes_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Holes</em> by Louis Sachar</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Holes.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-11-5</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802797&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 0-9656211-7-0</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802813&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="mango"></a><div class="store_main">
+<img class="outline" src="images/house_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">The House on Mango Street</em> by Sandra Cisneros</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>The House on Mango Street.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-34-4</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802799&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-19-0</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802815&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="robinson"></a><div class="store_main">
+<img class="outline" src="images/year_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">In the Year of the Boar and Jackie Robinson</em> by Bette Bao Lord</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>In the Year of the Boar and Jackie Robinson.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-22-0</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802800&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-01-8</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802818&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="island"></a><div class="store_main">
+<img class="outline" src="images/island_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Island of the Blue Dolphins</em> by Scott O'Dell</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Island of the Blue Dolphins.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-17-4</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802801&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-9656211-8-9</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802820&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="magee"></a><div class="store_main">
+<img class="outline" src="images/maniac_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Maniac Magee</em> by Jerry Spinelli</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Maniac Magee.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-30-1</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802802&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-31-X</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802822&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="may"></a><div class="store_main">
+<img class="outline" src="images/missing_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Missing May</em> by Cynthia Rylant</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Missing May.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-08-5</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802803&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 0-9656211-3-8</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802823&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="stars_online"></a><div class="store_main">
+<img class="outline" src="images/stars_online_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club <u>Online</u> Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Number the Stars</em> by Lois Lowry</p>
+    <p class="store_indent"><strong>NEW!</strong> This guide shows you how to teach a Book Club unit online with theme-based activities centered on the novel <em>Number the Stars.</em> Whether you teach the entire extended unit or just the Book Club lessons, you'll have the instructional materials you need to guide students either remotely or in a hybrid schedule.</p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 978-1-931376-47-1</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href='https://www.e-junkie.com/ecom/gb.php?&c=cart&ejc=2&cl=134523&i=1688236' onclick='return EJEJC_lc(this);' style='display:inline-block;background: #3da5d9 url(https://www.e-junkie.com/ej/images/newaddtocart.png) center/100px no-repeat;border: none;padding: 7px 55px;border-radius: 3px;box-shadow: 1px 2px 2px rgba(0,0,0,0.2);text-decoration: none;' target='ej_ejc' class='ec_ejc_thkbx' alt="Add to Cart">&nbsp;</a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=134523" target="ej_ejc" class="ec_ejc_thkbx" onclick="return EJEJC_lc(this);" style="display:inline-block;background: #3da5d9 url(https://www.e-junkie.com/ej/images/newviewcart.png) center/90px no-repeat;border: none;padding: 7px 55px;border-radius: 3px;box-shadow: 1px 2px 2px rgba(0,0,0,0.2);cursor: pointer;text-decoration: none;" alt="View Cart">&nbsp;</a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="stars"></a><div class="store_main">
+<img class="outline" src="images/number_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Number the Stars</em> by Lois Lowry</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Number the Stars.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-00-X</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802826&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="dust"></a><div class="store_main">
+<img class="outline" src="images/out_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Out of the Dust</em> by Karen Hesse</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Out of the Dust.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-33-6</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802805&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-18-2</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802829&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="thunder"></a><div class="store_main">
+<img class="outline" src="images/roll_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Roll of Thunder, Hear My Cry</em> by Mildred D. Taylor</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Roll of Thunder, Hear My Cry.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-32-8</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802806&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-03-4</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802830&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="shiloh"></a><div class="store_main">
+<img class="outline" src="images/shiloh_cover.jpg" width="150" height="180" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Shiloh</em> by Phyllis Reynolds Naylor</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Shiloh.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 0-931376-05-0</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802831&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="singdown"></a><div class="store_main">
+<img class="outline" src="images/sing_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Sing Down the Moon</em> by Scott O'Dell</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Sing Down the Moon.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-14-X</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802808&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 0-9656211-4-6</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802832&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="tangerine"></a><div class="store_main">
+<img class="outline" src="images/tangerine_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Tangerine</em> by Edward Bloor</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Tangerine.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-23-9</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802933&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-04-2</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802940&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="saturday"></a><div class="store_main">
+<img class="outline" src="images/view_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">The View from Saturday</em> by E. L. Konigsburg</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>The View from Saturday.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-10-7</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802809&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 0-9656211-5-4</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802834&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="moon"></a><div class="store_main">
+<img class="outline" src="images/walk_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">Walk Two Moons</em> by Sharon Creech</p>
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>Walk Two Moons.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-29-8</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802810&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 0-931376-28-X</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802837&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="watsons"></a><div class="store_main">
+<img class="outline" src="images/watsons_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">The Watsons Go to Birmingham–1963</em> by Christopher Paul Curtis</p> 
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>The Watsons Go to Birmingham–1963.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-09-3</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802811&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 0-9656211-6-2</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802839&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<a name="wrinkle"></a><div class="store_main">
+<img class="outline" src="images/wrinkle_cover.jpg" width="150" height="198" alt=""/>
+<p class="blue">Book Club Novel Guide</p>
+<p class="store_indent"><em class="ital-bf-red">A Wrinkle in Time</em> by Madeleine L'Engle</p> 
+<p class="store_indent">This novel guide outlines a complete theme-based unit with Book Club lessons focusing on <em>A Wrinkle in Time.</em> While the Book Club lessons form an integral part of the unit as a whole, they can also stand alone if you choose not to teach the entire unit.</p>
+<p class="store_indent"><strong>Paperback:</strong> ISBN: 1-931376-27-1</p>
+<p class="store_indent"><strong>Price:</strong> $17.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802934&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<p class="store_indent"><strong>ebook (pdf format):</strong> ISBN: 1-931376-26-3</p>
+<p class="store_indent"><strong>Price:</strong> $9.95</p>
+<p  class="store_indent2"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=802939&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"/></a>&emsp;
+<a href="https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=134523&amp;ejc=2" target="ej_ejc" class="ec_ejc_thkbx" onclick="javascript:return EJEJC_lc(this);"><img src="http://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"/></a>
+<script language="javascript" type="text/javascript">
+<!--
+function EJEJC_lc(th) { return false; }
+// -->
+</script>
+<script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script></p>
+<hr class="space-6"/>
+</div>
+<div class="store_main">
+<div class="store_side">
+<p><a class="small" href="javascript:SE_images('BC_movie.html');"><img class="outline" src="images/BC_video.jpg" width="150" height="225" alt="" title="Book Club: A Literature-Based Curriculum Video"/></a></p>
+<p class="extra-top"><a class="small" href="javascript:SE_images('BC_movie.html');">View a brief clip from the video that discusses the principal benefit of Book Club.</a></p></div>
+<h2 class="store_indent">Book Club Video</h2>
+<p class="store_indent">Designed to complement and illustrate the teacher’s handbook, this 32-minute presentation helps you successfully implement and facilitate Book Club in your own classroom. Teachers and students who’ve participated in the program offer unique insights, and extensive classroom footage clearly models the many strategies and techniques discussed in the handbook. The Book Club video can also provide the basis for effective staff-development seminar discussions. <a href="http://www.smplanet.com/store/bookclublogs#video">For more information...</a></p>
+<p class="store_indent"><em>Book Club</em> competed in the U.S. International Film and Video Festival in 1997 and was awarded the Certificate for Creative Excellence in the category of Teacher Education.</p>
+<p class="store_indent"><strong>Publisher:</strong> Small Planet Communications, Inc. (1997)</p>
+<p class="store_indent"><strong>Language:</strong> English</p>
+<p class="store_indent"><strong>VHS:</strong> 32 min.</p>
+<p class="store_indent">Please email <a href="mailto:planet@smplanet.com">planet@smplanet.com</a> with inquiries on how to purchase the video.</p>
+</div>
+
+<hr/>
+<p>All sales are final. Purchases are NOT refundable. We will replace any book that is damaged in transit. We use USPS Media Mail for shipments. Call 1-800-475-9486 or <a href="mailto:sales@planetbookclub.com">email</a> us to inquire about special orders.</p>
+<hr/>
+<div class="centered1"><a href="http://www.smplanet.com/" title="Small Planet Communications, Inc. Home"><img src="../images/home_button.gif" class="no-border" width="55" height="30" alt="Small Planet Communications, Inc."/></a>&nbsp; &nbsp;<a href="http://www.smplanet.com/store/" title="Top of Page"><img src="../images/top_button.gif" class="no-border" width="106" height="30" alt="Return to top of page"/></a></div>
+<div id="footer">
+<p class="footer">© 2020 Small Planet Communications, Inc. <span class="red1">+</span> <a href="http://www.smplanet.com/terms">Terms/Conditions</a> <span class="red1">+</span> 15 Union Street, Lawrence, MA 01840 <span class="red1">+</span> (978) 794-2201 <span class="red1">+</span> <a href="mailto:planet@smplanet.com">planet@smplanet.com</a> </p>
+<!-- end #footer --></div>
+<!-- end #overview --></div>
+<!-- end #container --></div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Small Planet Communications, Inc.</title>
+		<meta http-equiv="Content-Type"
+			content="text/html; charset=utf-8"/>
+		<meta name="description" content="With our unique combination of content-area and technical expertise, we develop learning materials for global, national, and regional educational markets."/>
+		<meta name="keywords" content="Small Planet Store, Planet Book Club, Teaching Resources, publishing, multimedia, ebook, epub, editing, digital, page production, graphic design, books, teachers, student, education, school, instruction, learning"/>
+		<meta name="author" content="Small Planet Communications, Inc."/>
+		<link href="css/style-home.css" rel="stylesheet" type="text/css"/>
+		<link rel="shortcut icon" href="images/favicon.ico"/>
+		<script type="text/javascript" src="js/anime.js"></script>
+	</head>
+<body>
+<div id="container">
+  <div id="header">
+	    <div id="logo"><a href="http://www.smplanet.com/"><img src="images/SP_logo.gif" class="no-border" width="125px" height="113px" alt="Small Planet Communications, Inc." title="Home"/></a></div>
+
+<div id="info_line">
+
+<p class="header">Small Planet Communications, Inc. <span class="red1">+</span> 15 Union Street, Lawrence, MA 01840 <span class="red1">+</span> (978) 794-2201 <span class="red1">+</span> <a href="http://www.smplanet.com/contact">Contact</a></p>
+</div>
+
+<div id="navigation">
+<ul id="nav">
+	<li><a href="http://www.smplanet.com/"><span class="red">HOME</span></a></li>
+	<li><a href="http://www.smplanet.com/teaching/">TEACHING RESOURCES</a>
+		<ul>
+		<li><a href="http://www.smplanet.com/teaching/bookclub">Book Club</a></li>
+		<li><a href="http://www.smplanet.com/teaching/imperialism/">The Age of Imperialism</a></li>
+		<li><a href="http://www.smplanet.com/teaching/colonialamerica/">Colonial America</a></li>
+		<li><a href="http://www.smplanet.com/teaching/thegreatstrike/">The Great Strike</a></li>
+		<li><a href="http://www.smplanet.com/teaching/msassessment/">Science for Middle School</a></li>
+		<li><a href="http://www.smplanet.com/teaching/planets/">The Solar System</a></li>
+		<li><a href="http://www.smplanet.com/teaching/science/">Comet Shoemaker-Levy 9</a></li>
+		<li><a href="http://www.smplanet.com/teaching/civilwar">The Civil War: Lesson Plan</a></li>
+		<li><a href="http://www.smplanet.com/teaching/webpage">Create Your Own Web Page</a></li>
+		<li><a href="http://www.smplanet.com/teaching/teachers">Links for Teachers</a></li>
+		<li><a href="http://www.smplanet.com/teaching/kids">Links for Kids</a></li>
+		<li><a href="http://www.smplanet.com/teaching/parents">Links and Information for Parents</a></li>
+		</ul>
+	</li>
+	<li><a href="http://www.smplanet.com/development/">DEVELOPMENT SERVICES</a>
+		<ul>
+		<li><a href="http://www.smplanet.com/development/editorial">Content and Editorial</a></li>
+		<li><a href="http://www.smplanet.com/development/design">Design and Production</a></li>
+		<li><a href="http://www.smplanet.com/development/digital">Digital and Technology</a></li>
+		<li><a href="http://www.smplanet.com/development/clients">Clients</a></li>
+		</ul>
+	</li>	
+	<li><a href="http://www.smplanet.com/store/">STORE</a>
+		<ul>
+		<li><a href="http://www.smplanet.com/store/greatstrike">The Great Strike</a></li>
+		<li><a href="http://www.smplanet.com/store/imperialism">The Age of Imperialism</a></li>		
+		<li><a href="http://www.smplanet.com/store/bookclubsecond">Book Club: A Literature-Based Curriculum</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclubplus">Book Club Plus!</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclubmiddle">Book Club for Middle School</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclublogs">Book Club Student Reading Log</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclublogs#video">Book Club Video</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclubguides">Book Club Novel Guides</a></li>
+		<li><a href="http://www.smplanet.com/store/bookclubonline">Book Club Online Novel Guides</a></li>
+        </ul>
+	</li>
+	<li><a href="http://www.smplanet.com/planetbookclub/">PLANET BOOK CLUB</a>
+		<ul>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/about">About</a></li>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/ccss/">Common Core Standards</a></li>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/methodology">Methodology</a></li>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/articles">Professional Development</a></li>
+		<li class="pbc-red-nav"><a href="http://www.smplanet.com/planetbookclub/novels/">Novels</a></li>
+		</ul>
+	</li>
+</ul>
+</div>
+<!-- end #header --></div>
+  
+  
+<div id="mainContent">
+<div id="sidebar1">
+<img src="images/tag.gif" width="274" height="290" alt="A Resource for Teachers...A Partner for Publishers..."/>
+ <!-- end #sidebar1 --></div>
+
+
+<p class="lineHeight">At Small Planet, we specialize in creating, shaping, and transmitting information—in any medium. With our unique combination of content-area and technical expertise, we help our clients deliver stellar learning materials to global, national, and regional educational markets. From <br/>complete textbook programs to interactive<br/> apps, at Small Planet, you can always <br/>count on quality and classroom appeal.</p>
+<!-- end #mainContent --></div>
+<div class="clearfloat"></div>
+
+<a href="http://www.smplanet.com/planetbookclub/" title="Planet Book Club"><img src="images/books_samples.jpg" width="490px" height="153px" class="outline" alt="Planet Book Club materials"/></a>
+
+<a href="http://www.smplanet.com/store/greatstrike" title="The Great Strike/Bread and Roses 1912"><img src="images/gs_sample.jpg" width="140px" height="148px" class="outline" alt="The Great Strike/Bread and Roses 1912"/></a>
+
+<a href="http://www.smplanet.com/store/greatstrike" title="The Great Strike/Bread and Roses 1912"><img src="images/ebook_reader.jpg" width="95px" height="140px" class="outline" alt="The Great Strike/Bread and Roses 1912"/></a>
+
+<a href="http://www.smplanet.com/development/" title="Development Services"><img src="images/StackoBooks.gif" width="220px" height="308px" class="outline1" alt="Development Services"/></a>
+
+<br class="clearfloat" />
+
+<div id="footer">
+<p class="footer">© 2020 Small Planet Communications, Inc. <span class="red1">+</span> <a href="http://www.smplanet.com/terms">Terms/Conditions</a> <span class="red1">+</span> 15 Union Street, Lawrence, MA 01840 <span class="red1">+</span> (978) 794-2201 <span class="red1">+</span> <a href="mailto:planet@smplanet.com">planet@smplanet.com</a> </p>
+<!-- end #footer --></div>
+
+<!-- end #container --></div>
+</body>
+</html>

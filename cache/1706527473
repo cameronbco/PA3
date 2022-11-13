@@ -1,0 +1,96 @@
+/***consulting home image swap***/
+  function setSomewhereIcons() {
+  document.psy.src="images/consulting_nav-psy1.gif";
+  document.imside.src="images/2.gif";  
+}
+  function setSomewhereIcons1() {
+  document.coun.src="images/consulting_nav-coun1.gif";
+  document.imside.src="images/3.gif";  
+}
+  function setSomewhereIcons2() {
+  document.adv.src="images/consulting_nav-adv1.gif";
+  document.imside.src="images/4_2.gif";  
+}
+  function setSomewhereIcons3() {
+  document.tut.src="images/consulting_nav-tut1.gif";
+  document.imside.src="images/5.gif";  
+}
+  function setSomewhereIcons4() {
+  document.trai.src="images/consulting_nav-trai1.gif";
+  document.imside.src="images/6.gif";  
+}
+
+  function clearSomewhereIcons() {
+  document.psy.src="images/consulting_nav-psy.gif";
+  document.imside.src="images/1.gif"; 
+}
+  function clearSomewhereIcons1() {
+  document.coun.src="images/consulting_nav-coun.gif";
+  document.imside.src="images/1.gif"; 
+}
+  function clearSomewhereIcons2() {
+  document.adv.src="images/consulting_nav-adv.gif";
+  document.imside.src="images/1.gif"; 
+}
+  function clearSomewhereIcons3() {
+  document.tut.src="images/consulting_nav-tut.gif";
+  document.imside.src="images/1.gif"; 
+}
+  function clearSomewhereIcons4() {
+  document.trai.src="images/consulting_nav-trai.gif";
+  document.imside.src="images/1.gif"; 
+}
+
+
+/***show image big when rolling over little image***/
+function Change_Big_One(thumb){
+document.getElementById('BigOne').src=thumb.src.replace("_th","")
+}
+function Change_Big_One1(thumb){
+document.getElementById('BigOne1').src=thumb.src.replace("_th","")
+}
+function Change_Big_One2(thumb){
+document.getElementById('BigOne2').src=thumb.src.replace("_th","")
+}
+function Change_Big_One3(thumb){
+document.getElementById('BigOne3').src=thumb.src.replace("_th","")
+}
+function Change_Big_One4(thumb){
+document.getElementById('BigOne4').src=thumb.src.replace("_th","")
+}
+function Change_Big_One5(thumb){
+document.getElementById('BigOne5').src=thumb.src.replace("_th","")
+}
+function Change_Big_One6(thumb){
+document.getElementById('BigOne6').src=thumb.src.replace("_th","")
+}
+function Change_Big_One7(thumb){
+document.getElementById('BigOne7').src=thumb.src.replace("_th","")
+}
+/***open new window***/
+var newwindow;
+function SE_images(url)
+{
+	newwindow=window.open(url,'name','height=640,width=800,resizable=yes,scrollbars=yes,');
+	if (window.focus) {newwindow.focus()}
+}
+var newwindow;
+function TG_images(url)
+{
+	newwindow=window.open(url,'name','height=640,width=800,resizable=yes,scrollbars=yes,');
+	if (window.focus) {newwindow.focus()}
+}
+
+/***navigation***/
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);

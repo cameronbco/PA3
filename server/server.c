@@ -391,6 +391,8 @@ int getFileType(char* URI, char* fileType){
     }
 }
 
+
+
 int attemptRequest(int connfd, char* URI,char* version, int keepAlive){
     
     FILE* fp;   

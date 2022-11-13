@@ -1,0 +1,105 @@
+/*
+smplanet colors
+#FDB913; -yellow
+#FEE5A6; -light-yellow
+#008C58; -green
+#DF4427; -red
+#a01717; -dark red
+#903F98; -purple
+#406ab4; -pbc blue
+#997440; -gold colonial
+#7e2a21; -red brown colonial
+#f2f2f2; -gray
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	
+margin: 0;	
+padding: 0;	
+border: 0;
+font-weight: normal;
+font-style: normal;	
+font-size: 100%;	
+font-family: inherit;	
+vertical-align: baseline;
+}
+footer, header, nav {	
+display: block;
+}
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px; 	
+	padding: 0px;
+	color: #000000;
+	line-height: 1em;
+}
+em {
+	font-style:italic;
+}
+em.ital-bf {
+	font-style:italic;
+	font-weight: bold;
+}
+em.ital-bf-red {
+	font-style:italic;
+	font-weight: bold;
+	color: #a01717;
+}
+strong {
+	font-weight: bold;
+}
+strong.large {
+	font-weight: bold;
+	font-size: 13px;
+}
+hr {
+	margin: 15px 0px; 
+    border: 0;
+    border-top: 1px solid #a5a5a5;
+}
+hr.style1 {
+	margin: 0px 0px 15px 0; 
+    border: 0;
+    border-top: 1px solid #a5a5a5;
+}
+hr.style2 {
+	width: 110px;
+	margin: 5px 0; 
+    border: 0;
+    border-top: 1px solid #a5a5a5;
+}
+hr.style3 {
+	margin: 30px 0 20px 0; 
+    border: 0;
+    border-top: 2px solid #a5a5a5;
+}
+hr.style4 {
+	margin: 15px 40px; 
+    border: 0;
+    border-top: 5px solid #a5a5a5;
+}
+
+.smallcaps {
+	font-size:12px;
+}
+.smallcaps-bold {
+	font-size:12px;
+	font-weight: bold;
+}
+/***divs for page structure***/
+#container { 
+	width: 975px;  
+	text-align: left; 
+	margin: 0px 0px 0px 30px; 
+} 
+#header { 
+	height: 127px;
+	padding: 10px;  
+	margin: 10px 0px 0px 0px;
+} 
+#logo {
+	float: left; 
+	width: 130px;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.he
