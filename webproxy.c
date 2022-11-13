@@ -810,7 +810,7 @@ int attemptRequest(int connfd, char *URI, char *version, char *request, int keep
     int test2 = fcntl(fileno(fp), F_SETLKW, &lock);
     printf("File Locked for writing.\n");
     printf("%d\n", fileno(fp));
-    sleep(100);
+    //sleep(100);
     while (1)
     {
 
@@ -893,7 +893,12 @@ int attemptRequest(int connfd, char *URI, char *version, char *request, int keep
         // sendFile(connfd, URI, version, path, keepalive);
         printf("exiting file write\n");
         // free(path);
-
+        if(readSize == 0){
+            printf("Received a read size of 0!!!! Remaining Content Length: %d\n", contentLength);
+        }
+        else if(readSize == -1){
+            printf("Received a read size of -1!!!!Remaining Content Length: %d\n", contentLength);
+        }
         lock.l_type = F_UNLCK;
         fcntl(fileno(fp), F_SETLK, &lock);
 
@@ -901,7 +906,9 @@ int attemptRequest(int connfd, char *URI, char *version, char *request, int keep
         close(sockfd2);
         free(finalMessage);
         free(message);
-        fclose(fp);
+        if(noCache == 0){
+            fclose(fp);
+        }
         return 0;
     }
     printf("exiting file write\n");
