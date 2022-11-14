@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>URL for testing - Category Gruesome Content</title>
+	</head>
+
+	<body>
+		<code>
+			http://www.testingmcafeesites.com/testcat_tg.html<br>
+			<br>
+
+			This is an example URL which should be categorized as a Gruesome Content website with a low risk reputation score.<br>
+			This page simply displays this text without any specific content on it, it is just for testing purpose.<br>
+			<br>
+			<b>If you can see this text, it was not blocked by any filter!</b><br>
+			<br>
+		</code>
+	</body>
+
+</html>

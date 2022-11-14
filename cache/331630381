@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta charset="utf-8" /><meta name="publishid" content="11166677.0.9709.0"/>
+<meta name="nodeid" content="0"/>
+<meta name="nodename" content="" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta content="telephone=no" name="format-detection" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script src="http://www.news.cn/global/js/pageCore.js"></script>
+<title>新华网_让新闻离你更近</title>
+<meta name="keywords" content="新闻中心,时政,人事任免,国际,地方,香港,台湾,澳门,华人,军事,图片,财经,政权,股票,房产,汽车,体育,奥运,法治,廉政,社会,科技,互联网,教育,文娱,电视剧,电影,视频,访谈,直播,专题" />
+<meta name="description" content="中国主要重点新闻网站,依托新华社遍布全球的采编网络,记者遍布世界100多个国家和地区,地方频道分布全国31个省市自治区,每天24小时同时使用6种语言滚动发稿,权威、准确、及时播发国内外重要新闻和重大突发事件,受众覆盖200多个国家和地区,发展论坛是全球知名的中文论坛。" />
+<link rel="stylesheet" href="http://lib.news.cn/swiper/swiper3.4.2/swiper.min.css" />
+<link rel="stylesheet" href="/2022newhomepro/styles/index.css?ver=20220803" />
+<fjtignoreurl>
+<script src="http://lib.news.cn/jquery/jquery.min.js" id="jq"></script>
+</fjtignoreurl>
+<fjtignoreurl>
+<script src="/2022newhomepro/scripts/xhome.js"></script>
+</fjtignoreurl>
+<script>
+if (XHOME.browser.isMobile && window.location.href.indexOf('?f=pad') < 0) {
+// 手机版打开
+window.location.href = 'http://m.news.cn'
+}
+</script>
+<fjtignoreurl>
+<script src="https://player.v.news.cn/player/sdk/h5/DHYPlayer-latest.min.js"></script>
+</fjtignoreurl>
+<fjtignoreurl>
+<script src="http://lib.news.cn/swiper/swiper3.4.2/swiper.min.js"></script>
+</fjtignoreurl>
+<fjtignoreurl>
+<script src="http://lib.news.cn/gsap/gsap3/gsap.min.js"></script>
+</fjtignoreurl>
+<!--[if lt IE 10]>
+<style>
+  .column-left {width: 280px;display: inline-block;vertical-align: top;margin-right: 15px;}
+  .column-center {position: relative;width: 520px;display: inline-block;vertical-align: top;}
+  .column-right {width: 360px; position: relative;overflow: hidden;display: inline-block;vertical-align: top;margin-left: 15px;}
+</style>
+<link rel="stylesheet" href="http://lib.news.cn/swiper/swiper2.7.6/idangerous.swiper.css">
+<fjtignoreurl>
+<script src="http://lib.news.cn/swiper/swiper2.7.6/idangerous.swiper.min.js"></script>
+</fjtignoreurl>
+<![endif]-->
+<style>
+.focus .focus-newsMedia .unique .live .type { display: none; }
+.focus .focus-newsText .list { overflow: visible }
+/*导航间距复写*/
+.top .top-cont .comprehensive .comprehensive-bottom .channel.channel5 .channel-sub { right: -134px }
+.top .top-cont .comprehensive .comprehensive-bottom .channel.channel5 .channel-sub-cont { width: 315px }
+.top .top-nav .top-nav-sub .top-nav-sub-in a { padding: 0 10px; }
+.top .top-nav .top-nav-sub .top-nav-sub-out a { padding: 0 8px; }
+.item-style1 .tit a { margin-right: 0 }
+.focus .focus-newsMedia .unique .special { margin-top: 0 }
+.focus .focus-newsMedia .unique .live { margin-top: 10px }
+/*20221001飘红 1220宽*/
+/*.nationaldDay-banner { width: 100%; height: 230px;margin: 0 auto }
+body { background: #f4f4f4 url("http://www.news.cn/2022newhomepro/images/20221001shouye_piaohongBg01_v1.jpg") 50% 0 no-repeat; }
+.w1220 { width: 1220px; margin: 0 auto; background: #f4f4f4; }*/
+/*20221026飘红 1220宽*/
+/*.cpc20-banner { display:block; width: 100%; height: 274px;margin: 0 auto; background:url(http://www.news.cn/2022newhomepro/images/xhwsy/esdbanner1026c.jpg) 50% 0 no-repeat;  }*/
+</style>
+</head>
+<body class="topNoAdv">
+<div id="YCADS2260_l_1663211736220477" style="width: 120px; height: 270px; display: block; background-color: rgb(242, 248, 250); margin: 5px auto; position: absolute; top: 1740px; overflow: inherit; z-index: 1000; left: 0px;"><a href="" target="_blank" style="position:absolute;z-index:2147483647;top:0;right:0;left:auto;bottom:auto;width:20px;height: 14px;background:url() center center no-repeat;background-size: 100% 100%;"></a><a id="YCADS_MASK_1663211736220477" href="http://a3.xinhuanet.com/c?sid=2261&amp;impid=6e2cc6382056410c93079220e3a3bb82&amp;cam=6087&amp;adgid=6087&amp;crid=11010&amp;uid=840fd6dbf5ac4a2984998d83aca62eef&amp;d=xinhuanetv2&amp;url=http%3A%2F%2Fwww.news.cn%2F%3FSegweg&amp;ref=&amp;i=1786279059&amp;tm=1663211726&amp;sig=10d0cf2ed7cc23835cb3ed9c2063e7bb&amp;click=http://www.news.cn/enterprise/xhsmzppgc/index.html" target="_blank" style="position:absolute;top:0;left:0;width:120px;height:270px;cursor:pointer;outline:none;background-color:#fff;opacity:0;filter:alpha(opacity=0);"></a><span style="position:absolute;left:0;z-index:2147483647;line-height: 18px;height: 18px;width: 38px;font-size: 14px;top: -18px;text-align: center;background-color: #fff;cursor: pointer;color: #676767;" onclick="(function(b){b=b.parentNode,b&amp;&amp;document.body.removeChild(b)})(this)">关闭</span><img height="270" width="120" border="0" src="http://a2.xinhuanet.com/download/adcreatives/2022/1/5/202201050322037501.jpg" style="width:120px;height:270px;line-height:270px;display:block;" /></div>
+<div id="YCADS2260_r_1663211736220477" style="width: 120px; height: 270px; display: block; background-color: rgb(242, 248, 250); margin: 5px auto; position: absolute; top: 1740px; overflow: inherit; z-index: 1000; right: 0px;"><a href="" target="_blank" style="position:absolute;z-index:2147483647;top:0;right:0;left:auto;bottom:auto;width:20px;height: 14px;background:url() center center no-repeat;background-size: 100% 100%;"></a><a id="YCADS_MASK_1663211736220477" href="http://a3.xinhuanet.com/c?sid=2261&amp;impid=6e2cc6382056410c93079220e3a3bb82&amp;cam=6087&amp;adgid=6087&amp;crid=11010&amp;uid=840fd6dbf5ac4a2984998d83aca62eef&amp;d=xinhuanetv2&amp;url=http%3A%2F%2Fwww.news.cn%2F%3FSegweg&amp;ref=&amp;i=1786279059&amp;tm=1663211726&amp;sig=10d0cf2ed7cc23835cb3ed9c2063e7bb&amp;click=http://www.news.cn/enterprise/xhsmzppgc/index.html" target="_blank" style="position:absolute;top:0;left:0;width:120px;height:270px;cursor:pointer;outline:none;background-color:#fff;opacity:0;filter:alpha(opacity=0);"></a><span style="position:absolute;right:0;z-index:2147483647;line-height: 18px;height: 18px;width: 38px;font-size: 14px;top: -18px;text-align: center;background-color: #fff;cursor: pointer;color: #676767;" onclick="(function(b){b=b.parentNode,b&amp;&amp;document.body.removeChild(b)})(this)">关闭</span><img height="270" width="120" border="0" src="http://a2.xinhuanet.com/download/adcreatives/2022/1/5/202201050322056813.jpg" style="width:120px;height:270px;line-height:270px;display:block;" /></div>
+<script>
+if(window.location.href.indexOf('?f=pad') >= 0){
+    $('#YCADS2260_l_1663211736220477').hide().remove()
+    $('#YCADS2260_r_1663211736220477').hide().remove()
+}
+
+</script>
+<!--<a class="cpc20-banner" href="http://news.cn/politics/cpc20/index.htm" target="_blank"></a>-->
+<div class="topTextAdv">
+<div class="part">
+<div class="topTextAdv-list">
+<a href="http://paper.news.cn" target="_blank">新华社报刊网</a> <a href="http://www.xhsyww.com" target="_blank">新华社印务网</a> <a href="http://www.xinhuanet.com/politics/2021-05/31/c_1127514369.htm" target="_blank">国家政务服务平台上线</a> <a href="http://www.xinhuanet.com/travel/20221114/d176e68ba65048f7b8937901e01dda15/c.html" target="_blank">清风获“2022最具影响力绿色企业品牌”</a> 
+</div>
+</div>
+</div>
+<div class="topImgAdv">
+<div class="part clearfix">
+<div class="topImgAdv-left left"> <ins data-ycad-slot="2159"></ins> </div>
+<div class="topImgAdv-center left"> <ins data-ycad-slot="2258"></ins> </div>
+<div class="topImgAdv-right right"> <ins data-ycad-slot="2269"></ins> </div>
+</div>
+</div>
+<div>
+<div class="area top">
+<div class="top-upper">
+<div class="part clearfix">
+<div class="slogan left"></div>
+<div class="lanNav right">
+<a href="https://english.news.cn/home.htm" target="_blank">English</a> <a href="https://spanish.news.cn/index.htm" target="_blank">Español</a> <a href="https://french.news.cn/index.htm" target="_blank">Français</a> <a href="https://arabic.news.cn/index.htm" target="_blank">عربى</a> <a href="https://russian.news.cn/index.htm" target="_blank">Русский язык</a> <a href="https://jp.news.cn/index.htm" target="_blank">日本語</a> <a href="https://kr.news.cn/index.htm" target="_blank">한국어</a> <a href="https://german.news.cn/index.htm" target="_blank">Deutsch</a> <a href="https://portuguese.news.cn/index.htm" target="_blank">Português</a> 
+<span class="typeface">
+<script>
+var currUrl = window.location.href;
+  var flag = currUrl.indexOf("gate/big5");
+  var ftzw = "tp://big5.news.cn/gate/big5/www.news.cn";
+  var jtzw = "tp://www.news.cn";
+  if (flag < 0) { // 文字变繁体
+    document.write('<a href="ht' + ftzw + '" target="_blank">中文/繁体</a>');
+  }
+  else { // 文字变简体
+    document.write('<a href="ht' + jtzw + '" target="_blank">中文/简体</a>');
+  }
+</script> 
+</span>
+<a href="javascript:void(0)" onclick="aria.start()">网站无障碍</a><!--<a href="http://big5.news.cn/gate/big5/www.news.cn" target="_blank">中文/繁体</a>-->
+</div>
+</div>
+</div>
+<div class="top-cont">
+<div class="part clearfix">
+<div class="logo left"><img src="/2022newhomepro/images/logo.png" alt="" /></div>
+<div class="company left"><span>新华通讯社主办</span> <a href="/company/" target="_blank">公司官网</a> <span>股票代码：603888</span></div>
+<div class="adv left">
+<a href="/businesspro/" target="_blank"><img src="/2022newhomepro/images/adv.jpg" alt="" /></a>
+<div class="adv-cont" id="advCont"><ins data-ycad-slot="2155"></ins></div>
+</div>
+<div class="comprehensive right">
+<div class="comprehensive-top clearfix">
+<div class="search left clearfix">
+<div class="search-name">搜索</div>
+<div class="clearfix form search-box" id="f1">
+<input class="search-input" id="inputwd" type="text" onmouseoff="this.className='input_off'" autocomplete="off" maxlength="255" value="" name="wd" placeholder="新华网" data-inputcolor="#9c9c9c" />
+<div class="search-btn" id="searchSubmit" type="submit" name="btn" value=""></div>
+</div>
+</div>
+<div class="report right" id="report"> <a class="report-item active" target="_blank" href="http://www.12377.cn/node_548446.htm" title="网络举报App下载">网络举报App下载</a> <a class="report-item" target="_blank" href="http://www.12377.cn/" title="中国互联网举报中心">中国互联网举报中心</a> <a class="report-item" target="_blank" href="https://www.12377.cn/" title="网上有害信息举报专区">网上有害信息举报专区</a> <a class="report-item" target="_blank" href="/jblc/c.htm" title="网上举报流程">网上举报流程</a> <a class="report-item" target="_blank" href="/jbzx/a.htm" title="网上举报专区">网上举报专区</a> <a class="report-item" target="_blank" href="https://www.piyao.org.cn/" title="中国互联网联合辟谣平台">中国互联网联合辟谣平台</a> </div>
+</div>
+<div class="comprehensive-bottom">
+<div class="channel channel0">
+<span>新华报刊</span>
+<div class="channel-sub">
+<div class="channel-sub-cont">
+<a href="http://mrdx.xinhuanet.com/index.htm" target="_blank"> 新华每日电讯 </a> <a href="http://www.jjckb.cn" target="_blank"> 经济参考 </a> <a href="http://lw.news.cn" target="_blank"> 瞭望 </a> <a href="http://www.banyuetan.org/" target="_blank"> 半月谈 </a> <a href="http://www.cs.com.cn/" target="_blank"> 中证报 </a> <a href="http://www.cnstock.com/" target="_blank"> 上证报 </a> <a href="http://paper.news.cn/bkdy/zgjz.htm" target="_blank"> 中国记者 </a> <br />
+<a href="http://www.chinatopbrands.net/index.htm" target="_blank"> 中国名牌 </a> <a href="http://www.scimedia.cn/" target="_blank"> 中国传媒科技 </a> <a href="globe/globe.htm" target="_blank"> 环球 </a> <a href="http://paper.news.cn/bkdy/lwdf.htm" target="_blank"> 瞭望东方周刊 </a> 
+<!--<a href="http://www.chnphoto.cn/" target="_blank"> 中国图品在线 </a>--> 
+<a href="http://www.cankaoxiaoxi.com/" target="_blank"> 参考消息 </a> <br />
+<a href="http://www.xinhuapub.com" target="_blank"> 新华出版社 </a> <a href="https://www.lwinst.com/Liems/web/getMoreJournal.htm?type=02" target="_blank"> 财经国家周刊 </a> 
+</div>
+</div>
+</div>
+<div class="channel channel1">
+<span>地方频道</span>
+<div class="channel-sub">
+<div class="channel-sub-cont"> <a href="http://www.bj.news.cn/index.htm" target="_blank"> 北京 </a> <a href="http://www.tj.news.cn/index.htm" target="_blank"> 天津 </a> <a href="http://www.he.news.cn/index.htm" target="_blank"> 河北 </a> <a href="http://www.sx.news.cn/index.htm" target="_blank"> 山西 </a> <a href="http://www.ln.news.cn/index.htm" target="_blank"> 辽宁 </a> <a href="http://www.jl.news.cn/index.htm" target="_blank"> 吉林 </a> <a href="http://www.sh.news.cn/index.htm" target="_blank"> 上海 </a> <a href="http://www.js.news.cn/index.htm" target="_blank"> 江苏 </a> <a href="http://www.zj.news.cn/index.htm" target="_blank"> 浙江 </a> <a href="http://www.ah.news.cn/index.htm" target="_blank"> 安徽 </a> <a href="http://www.fj.news.cn/index.htm" target="_blank"> 福建 </a> <a href="http://www.jx.news.cn/index.htm" target="_blank"> 江西 </a> <a href="http://www.sd.news.cn/index.htm" target="_blank"> 山东 </a> <br />
+<a href="http://www.ha.news.cn/index.htm" target="_blank"> 河南 </a> <a href="http://www.hb.news.cn/index.htm" target="_blank"> 湖北 </a> <a href="http://www.hn.news.cn/index.htm" target="_blank"> 湖南 </a> <a href="http://www.gd.news.cn/index.htm" target="_blank"> 广东 </a> <a href="http://www.gx.news.cn/index.htm" target="_blank"> 广西 </a> <a href="http://www.hq.news.cn/index.htm" target="_blank"> 海南 </a> <a target="_blank" href="http://www.cq.news.cn/index.htm"> 重庆 </a> <a target="_blank" href="http://www.sc.news.cn/index.htm"> 四川 </a> <a target="_blank" href="http://www.gz.news.cn/index.htm"> 贵州 </a> <a target="_blank" href="http://www.yn.news.cn/index.htm"> 云南 </a> <a target="_blank" href="http://tibet.news.cn/index.htm"> 西藏 </a> <a target="_blank" href="http://www.sn.news.cn/index.htm"> 陕西 </a> <a target="_blank" href="http://www.gs.news.cn/index.htm"> 甘肃 </a> <br />
+<a target="_blank" href="http://www.qh.news.cn/index.htm"> 青海 </a> <a target="_blank" href="http://www.nx.news.cn/index.htm"> 宁夏 </a> <a target="_blank" href="http://www.xj.news.cn/index.htm"> 新疆 </a> <a target="_blank" href="http://www.nmg.news.cn/index.htm"> 内蒙古 </a> <a target="_blank" href="http://www.hlj.news.cn/index.htm"> 黑龙江 </a> <a target="_blank" href="http://bt.news.cn/index.htm"> 兵团 </a> <a target="_blank" href="http://wx.news.cn/index.htm"> 无锡 </a> <a target="_blank" href="http://csj.news.cn/index.htm"> 长三角 </a> 
+</div>
+</div>
+</div>
+<div class="channel channel2"> <a href="http://www.gov.cn/" target="_blank">中国政府网</a> </div>
+<div class="channel channel3"> <a href="http://www.wenming.cn/" target="_blank">中国文明网</a> </div>
+<div class="channel channel4"> <a href="http://www.emerinfo.cn/" target="_blank">中国应急信息网</a> </div>
+<div class="channel channel5">
+<a href="http://www.xiongan.gov.cn/" target="_blank">中国雄安官网</a>
+<div class="channel-sub">
+<div class="channel-sub-cont"> <a href="http://www.piyao.org.cn/" target="_blank">中国互联网联合辟谣平台</a> <a href="http://www.zgjx.cn/" target="_blank"> 中国记协网 </a> <br />
+<a href="http://www.cngongji.cn/" target="_blank"> 国家公祭网 </a> <a href="/science/kpzg.htm" target="_blank"> 科普中国 </a> <a href="http://www.nea.gov.cn/" target="_blank"> 国家能源局网站 </a> <br />
+<a href="http://www.gjxfj.gov.cn/" target="_blank"> 国家信访局网站 </a> <a href="http://www.nncc626.com/" target="_blank"> 中国禁毒网 </a> <a href="http://www.nationalreading.org.cn/" target="_blank"> 全民阅读官方网站 </a> 
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="top-nav">
+<div class="top-nav-main">
+<div class="part"> <a class="top-nav-main-recommend" href="/home.htm" target="_blank"><i class="icon"></i><i class="cn">首页</i></a><a class="top-nav-main-news" href="/politicspro/" target="_blank"><i class="icon"></i><i class="cn">时政</i></a><a class="top-nav-main-world" href="/worldpro/" target="_blank"><i class="icon"></i><i class="cn">国际</i></a><a class="top-nav-main-fortune" href="/fortunepro/" target="_blank"><i class="icon"></i><i class="cn">财经</i></a><a class="top-nav-main-video" href="/videopro/" target="_blank"><i class="icon"></i><i class="cn">视频</i></a><a class="top-nav-main-richMedia" href="/multimediapro/" target="_blank"><i class="icon"></i><i class="cn">富媒体</i></a><a class="top-nav-main-technology" href="/techpro/" target="_blank"><i class="icon"></i><i class="cn">科技</i></a><a class="top-nav-main-culture" href="/culturepro/" target="_blank"><i class="icon"></i><i class="cn">文化</i></a><a class="top-nav-main-health" href="/health/" target="_blank"><i class="icon"></i><i class="cn">健康</i></a><a class="top-nav-main-military" href="/milpro/" target="_blank"><i class="icon"></i><i class="cn">军事</i></a> <a class="top-nav-main-thinkerTank" href="/sikepro/" target="_blank"><i class="icon"></i><i class="cn">思客智库</i></a><a class="top-nav-main-govern" href="/governmentpro/" target="_blank"><i class="icon"></i><i class="cn">政务</i></a><a class="top-nav-main-business" href="/businesspro/" target="_blank"><i class="icon"></i><i class="cn">商务</i></a></div>
+</div>
+<div class="top-nav-sub">
+<div class="top-nav-sub-in">
+<div class="part">
+<a href="/politics/xxjxs/index.htm" target="_blank">学习进行时</a><!--<a href="/politics/leaders/index.htm" target="_blank">高层</a>--><a href="/world/globalink/index.htm" target="_blank">全球连线</a><!--<a href="/politics/xhll.htm" target="_blank">理论</a>--><a href="/comments/index.htm" target="_blank">网评</a><!-- <a href="/legal/index.htm" target="_blank">法治</a><a href="/politics/xhrs/index.html" target="_blank">人事</a><a href="/legal/ffu/index.html" target="_blank">廉政</a><a href="/local/index.htm" target="_blank">地方</a>--><a href="/gangao/index.htm" target="_blank">港澳</a><a href="/tw/index.htm" target="_blank">台湾</a><a href="http://education.news.cn/index.htm" target="_blank">教育</a><a href="/science/index.htm" target="_blank">科普</a><a href="http://sports.news.cn/index.htm" target="_blank">体育</a><a href="/talking/index.htm" target="_blank">访谈</a><a href="/photo/index.htm" target="_blank">图片</a><a href="/info/index.htm" target="_blank">信息化</a><a href="/finance/" target="_blank">上市公司</a><a href="http://xczx.news.cn/" target="_blank">乡村振兴</a><a href="/politics/zywj/index.htm" target="_blank">中央文件</a><a href="/silkroad/index.htm" target="_blank">一带一路</a><span id="topNavSubMore">+</span>
+</div>
+</div>
+<div class="top-nav-sub-out" id="topNavSubOut">
+<div class="part"> <a href="/money/index.htm" target="_blank">金融</a><a href="/auto/index.htm" target="_blank">汽车</a><a href="/food/index.htm" target="_blank">食品</a><a href="/house/index.htm" target="_blank">房产</a><a href="/travel/index.htm" target="_blank">旅游</a><a href="http://city.news.cn/" target="_blank">城市</a><a href="/energy/index.htm" target="_blank">能源</a><a href="/enterprise/index.htm" target="_blank">公司</a><a href="/expo/index.htm" target="_blank">会展</a><a href="/caipiao/index.htm" target="_blank">彩票</a><a href="/ent/index.htm" target="_blank">娱乐</a><a href="/fashion/index.htm" target="_blank">时尚</a><a href="http://book.news.cn/index.htm" target="_blank">悦读</a><a href="/gongyi/index.htm" target="_blank">公益</a><a href="/shuhua/index.htm" target="_blank">书画</a><a href="/foto/index.htm" target="_blank">摄影</a><a href="/asia/chinese/index.htm" target="_blank">亚太网</a><a href="/info/xbsyzg/index.htm" target="_blank">溯源中国</a><a href="/finance/tjjd/index.htm" target="_blank">投教基地</a></div>
+</div>
+</div>
+</div>
+</div>
+<fjtignoreurl>
+<div class="area xi">
+<div class="part clearfix">
+<div class="xi-scroll" id="xiScroll">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide"> <a href="/politics/xxjxs/index.htm" target="_blank"><img src="/2022newhomepro/images/xxjxs-01.png" alt="" /></a> </div>
+<!--<div class="swiper-slide"><a href="/politics/leaders/index.htm" target="_blank"><img src="/2022newhomepro/images/xxjxs-02.png" alt=""></a></div>--> 
+<!--<div class="swiper-slide"><a href="/world/dgwj/wyzdxjp/index.htm" target="_blank"><img src="/2022newhomepro/images/xxjxs-03.png" alt=""></a></div>--> 
+</div>
+</div>
+<!--<div class="swiper-pagination"></div>--> 
+</div>
+<div class="xi-list">
+<ul class="clearfix">
+<li class="clearfix">
+<div class="img"><a href="http://www.news.cn/world/2022-11/10/c_1129119116.htm" target="_blank"><img src="titlepic/112911/1129119123_1668126867543_title0h.jpg" alt="连续9次世界互联网大会 习近平主席深入阐释这一理念主张" /></a></div>
+<div class="txt">
+<div class="tit"><a href="http://www.news.cn/world/2022-11/10/c_1129119116.htm" target="_blank">连续9次世界互联网大会 习近平主席深入阐释这一理念主张</a></div>
+<div class="tag"> 第一观察 </div>
+</div>
+</li>
+<li class="clearfix">
+<div class="img"><a href="http://www.news.cn/politics/xxjxs/2022-11/08/c_1129111825.htm" target="_blank"><img src="titlepic/112911/1129113267_1667959712455_title0h.jpg" alt="习近平总书记和新闻工作者的故事" /></a></div>
+<div class="txt">
+<div class="tit"><a href="http://www.news.cn/politics/xxjxs/2022-11/08/c_1129111825.htm" target="_blank">习近平总书记和新闻工作者的故事</a></div>
+<div class="tag"> 学习进行时 </div>
+</div>
+</li>
+<li class="clearfix">
+<div class="img"><a href="http://www.news.cn/politics/2022-11/12/c_1129123254.htm" target="_blank"><img src="titlepic/112912/1129125040_1668346513602_title0h.jpg" alt="与江共生 江苏探路" /></a></div>
+<div class="txt">
+<div class="tit"><a href="http://www.news.cn/politics/2022-11/12/c_1129123254.htm" target="_blank">与江共生 江苏探路</a></div>
+<div class="tag"> 瞭望·治国理政纪事 </div>
+</div>
+</li>
+<li class="clearfix">
+<div class="img"><a href="http://www.news.cn/world/2022-11/07/c_1129107459.htm" target="_blank"><img src="titlepic/112910/1129107507_1667828922241_title0h.jpg" alt="习近平主席亲自推动打造&ldquo;一带一路&rdquo;高质量发展示范性工程" /></a></div>
+<div class="txt">
+<div class="tit"><a href="http://www.news.cn/world/2022-11/07/c_1129107459.htm" target="_blank">习近平主席亲自推动打造“一带一路”高质量发展示范性工程</a></div>
+<div class="tag"> 元首外交 </div>
+</div>
+</li>
+</ul> 
+</div>
+</div>
+</div>
+<div class="area headline" id="headline" data-fontsize="" data-fontcolor="">
+<div class="part bg-white">
+<h1><a href="http://www.news.cn/politics/leaders/2022-11/13/c_1129125410.htm" target="_blank">习近平在历次G20峰会上这样阐明中国主张</a></h1>
+<p><a href="http://www.news.cn/world/2022-11/11/c_1129120766.htm" target="_blank">习近平将赴印尼出席二十国集团领导人第十七次峰会、赴泰国出席亚太经合组织第二十九次领导人非正式会议并对泰国进行访问</a>　<a href="http://www.news.cn/politics/2022-11/12/c_1129124068.htm" target="_blank">同行天下大道 共创光明未来</a></p>
+</div>
+</div>
+<div class="area focus">
+<div class="part clearfix">
+<div class="focus-newsMedia left">
+<div class="focus-newsMedia-top">
+<div class="scroll breath" id="focusMediaScroll">
+<!-- 全媒体播放器帧数--> 
+<div class="scroll-articleNum hide">9</div>
+<div class="scroll-tips hide" id="scrollTips">
+由于您的浏览器版本过低，导致页面无法正常显示 。请您使用最新版IE浏览器或其他浏览器。
+<div class="scroll-tips-close"></div>
+</div>
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide scroll-articles" data-url="">
+<div class="img"><a href="http://www.news.cn/photo/2022-11/13/c_1129125191.htm" target="_blank"><img src="titlepic/112912/1129125382_1668335450211_title0h.jpg" alt="二十国集团领导人第十七次峰会即将举行" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/photo/2022-11/13/c_1129125191.htm" target="_blank">二十国集团领导人第十七次峰会即将举行</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="">
+<div class="img"><a href="http://www.news.cn/world/2022-11/13/c_1129124929.htm" target="_blank"><img src="titlepic/112912/1129124966_1668392944245_title0h.jpg" alt="镜观世界丨遇见巴厘岛&mdash;&mdash;走进2022年G20峰会举办地" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/world/2022-11/13/c_1129124929.htm" target="_blank">镜观世界丨遇见巴厘岛——走进2022年G20峰会举办地</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="https://vodpub6.v.news.cn/yhfb-original/20221113/141e5ef1-37f7-4728-89a0-011445002f1e.mp4">
+<div class="img"><a href="http://www.news.cn/photo/2022-11/13/c_1129125664.htm" target="_blank"><img src="titlepic/112912/1129125702_1668349488566_title0h.jpg" alt="九万里风鹏正举&mdash;&mdash;写在第十四届中国航展闭幕之际" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/photo/2022-11/13/c_1129125664.htm" target="_blank">九万里风鹏正举——写在第十四届中国航展闭幕之际</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="https://vodpub6.v.news.cn/yhfb-original/20221113/a643ee49-d1bc-4b7d-ba8c-7061413c89f7.mp4">
+<div class="img"><a href="http://www.news.cn/politics/2022-11/13/c_1129125756.htm" target="_blank"><img src="titlepic/112912/1129125760_1668392936631_title0h.jpg" alt="新青年丨打开水下&ldquo;时光宝盒&rdquo;，他们让历史浮出水面" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/politics/2022-11/13/c_1129125756.htm" target="_blank">新青年丨打开水下“时光宝盒”，他们让历史浮出水面</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="https://vodpub6.v.news.cn/yhfb-original/20221113/fcdf3b3d-2188-4ed7-9a72-557f52b2af4a.mp4">
+<div class="img"><a href="http://www.news.cn/photo/2022-11/13/c_1129125133.htm" target="_blank"><img src="titlepic/112912/1129125181_1668329207621_title0h.jpg" alt="大美湿地城市｜哈尔滨" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/photo/2022-11/13/c_1129125133.htm" target="_blank">大美湿地城市｜哈尔滨</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="https://vodpub1.v.news.cn/original/20221114/cb10b8ec91b34bcfacc830ff63f4136b.mp4">
+<div class="img"><a href="http://www.news.cn/talking/2022-11/14/c_1211700529.htm" target="_blank"><img src="titlepic/112912/1129126370_1668392029614_title0h.jpg" alt="在希望的田野上｜&ldquo;95后&rdquo;墙绘师为家乡上色" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/talking/2022-11/14/c_1211700529.htm" target="_blank">在希望的田野上｜“95后”墙绘师为家乡上色</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="">
+<div class="img"><a href="http://www.news.cn/food/20221010/99d6eda64c2b4bdcb7dcdf0d1999f3a4/c.html" target="_blank"><img src="titlepic/112912/1129126432_1668392749287_title0h.jpg" alt="《时代摘要》走进公牛（下集）：解码公牛的美学与成功之道" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/food/20221010/99d6eda64c2b4bdcb7dcdf0d1999f3a4/c.html" target="_blank">《时代摘要》走进公牛（下集）：解码公牛的美学与成功之道 </a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="">
+<div class="img"><a href="http://www.xinhuanet.com/travel/20221114/d176e68ba65048f7b8937901e01dda15/c.html" target="_blank"><img src="titlepic/112912/1129126120_1668388226961_title0h.jpg" alt="清风获2022最具影响力绿色企业品牌" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.xinhuanet.com/travel/20221114/d176e68ba65048f7b8937901e01dda15/c.html" target="_blank">清风获2022最具影响力绿色企业品牌</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="">
+<div class="img"><a href="http://www.news.cn/tech/20221114/bb01cc9fefef41a09120628575560368/c.html" target="_blank"><img src="titlepic/112912/1129126352_1668391649197_title0h.jpg" alt="紧抓双碳时代机遇 台铃加速领航电动车行业绿色发展" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/tech/20221114/bb01cc9fefef41a09120628575560368/c.html" target="_blank">紧抓双碳时代机遇 台铃加速领航电动车行业绿色发展</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="https://vodpub6.v.news.cn/yhfb-original/20221113/2ba1ed2a-3fb9-45f2-be09-0ece27e48e4a.mp4">
+<div class="img"><a href="http://www.news.cn/photo/2022-11/13/c_1129124949.htm" target="_blank"><img src="titlepic/112912/1129125041_1668345613575_title0h.JPG" alt="搏击&mdash;&mdash;UFC281：张伟丽重夺金腰带" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/photo/2022-11/13/c_1129124949.htm" target="_blank">搏击——UFC281：张伟丽重夺金腰带</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="https://vodpub1.v.news.cn/original/20221112/1351aecd8ac8422b9b02f3f03dd7d70b.mp4">
+<div class="img"><a href="http://gd.news.cn/newscenter/2022-11/13/c_1129124985.htm" target="_blank"><img src="titlepic/112912/1129125201_1668328782405_title0h.jpg" alt="180秒回顾2022中国航展精彩瞬间" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://gd.news.cn/newscenter/2022-11/13/c_1129124985.htm" target="_blank">180秒回顾2022中国航展精彩瞬间</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="">
+<div class="img"><a href="http://www.news.cn/photo/2022-11/13/c_1129124997.htm" target="_blank"><img src="titlepic/112912/1129125045_1668325299488_title0h.JPG" alt="长春：冬夜除冰雪 列车保安全" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/photo/2022-11/13/c_1129124997.htm" target="_blank">长春：冬夜除冰雪 列车保安全</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="">
+<div class="img"><a href="http://www.news.cn/photo/2022-11/13/c_1129125033.htm" target="_blank"><img src="titlepic/112912/1129125051_1668325199584_title0h.jpg" alt="冬候鸟抵达鄱阳湖" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/photo/2022-11/13/c_1129125033.htm" target="_blank">冬候鸟抵达鄱阳湖</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="">
+<div class="img"><a href="http://www.news.cn/2022-11/13/c_1129124975.htm" target="_blank"><img src="titlepic/112912/1129125187_1668327397535_title0h.png" alt="聚焦高质量发展｜浙江温州：乘&ldquo;峰&rdquo;破浪 科创涌动" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/2022-11/13/c_1129124975.htm" target="_blank">聚焦高质量发展｜浙江温州：乘“峰”破浪 科创涌动</a>                         
+</div>
+</div>
+<div class="swiper-slide scroll-articles" data-url="">
+<div class="img"><a href="http://www.news.cn/politics/2022-11/12/c_1129124165.htm" target="_blank"><img src="titlepic/112912/1129124708_1668308161290_title0h.jpg" alt="天舟五号&ldquo;问天&rdquo;记" /></a></div>
+<div class="tit">
+<div class="btn hide"></div>
+<a href="http://www.news.cn/politics/2022-11/12/c_1129124165.htm" target="_blank">天舟五号“问天”记</a>                         
+</div>
+</div> 
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+</div>
+</div>
+<div class="focus-newsMedia-bottom clearfix" id="focusNewsMediaBottom">
+<div class="unique left">
+<div class="special">
+<div class="type"></div>
+<div class="solo img breath"><a href="http://www.news.cn/politics/xxgcdd20djs" target="_blank"><img data-src="http://www.news.cn/titlepic/112911/1129116726_1668070149319_title0h.jpg" alt=""></a></div>
+<div class="list">
+<ul>
+<li><a href="http://www.news.cn/world/ciie2022/index.htm" target="_blank">第五届中国国际进口博览会</a></li>
+<li><a href="http://zj.news.cn/2022WuzhenSummit" target="_blank">世界互联网大会乌镇峰会</a></li>
+<li><a href="http://news.cn/world/zt/xsdwzzg/index.html" target="_blank">新时代，我在中国</a></li>
+</ul> 
+</div>
+<div class="more"> <a href="http://www.news.cn/specials.htm" target="_blank"> 更多 >></a> </div>
+</div>
+<div class="live">
+<div class="type"></div>
+<div class="live-ing" id="living" data-url="https://vodpub6.v.news.cn/yhfb-original/20221114/9a545b74-84f4-484d-9442-de3dbbbaf46c.mp4">
+<div class="img breath">
+<a href="http://www.news.cn/tech/2022-11/14/c_1129126400.htm" target="_blank">
+<div class="btn"></div>
+<div class="qiantag "></div>
+<img data-src="http://www.news.cn/titlepic/112912/1129126427_1668392777380_title0h.png" alt="">                         
+</a>
+</div>
+<div class="tit"><a href="http://www.news.cn/tech/2022-11/14/c_1129126400.htm" target="_blank">天舟五号发射任务全回顾</a></div>
+</div> 
+</div>
+</div>
+<div class="products right">
+<div class="list clearfix" id="focusProducts">
+<div class="item breath" data-url="https://vodpub6.v.news.cn/yhfb-original/20221113/0fbe0360-46bf-4111-b0e3-965af64f81de.mp4" data-idx="0">
+<div class="img">
+<a href="http://www.news.cn/politics/2022-11/13/c_1129125721.htm" target="_blank">
+<div class="btn hide"></div>
+<img data-src="http://www.news.cn/titlepic/112912/1129125821_1668382237209_title0h.gif" alt="">
+</a>
+</div>
+<div class="tit"><a href="http://www.news.cn/politics/2022-11/13/c_1129125721.htm" target="_blank">二十大代表在基层丨刘晓云：让出行旅客感受到回家的温暖</a></div>
+</div>
+<div class="item breath" data-url="https://vodpub6.v.news.cn/yhfb-original/20221113/bac5bd20-ac57-46d8-8169-815043696f40.mp4" data-idx="1">
+<div class="img">
+<a href="http://www.news.cn/world/2022-11/14/c_1129125761.htm" target="_blank">
+<div class="btn hide"></div>
+<img data-src="http://www.news.cn/titlepic/112912/1129125814_1668381791231_title0h.png" alt="">
+</a>
+</div>
+<div class="tit"><a href="http://www.news.cn/world/2022-11/14/c_1129125761.htm" target="_blank">一起体验G20巴厘岛峰会上的中国新能源汽车</a></div>
+</div>
+<div class="item breath" data-url="https://vodpub1.v.news.cn/original/20221111/df35d0884d834754aceda5d7848138a7.mp4" data-idx="2">
+<div class="img">
+<a href="http://js.news.cn/2022-11/14/c_1129120652.htm" target="_blank">
+<div class="btn hide"></div>
+<img data-src="http://www.news.cn/titlepic/112912/1129125858_1668383994017_title0h.jpg" alt="">
+</a>
+</div>
+<div class="tit"><a href="http://js.news.cn/2022-11/14/c_1129120652.htm" target="_blank">联合国糖尿病日｜“糖友们”的冬天怎么过？做好这几点</a></div>
+</div>
+<div class="item breath" data-url="https://vodpub1.v.news.cn/original/20221112/330e36047b34406a9139fb9e42de9eff.mp4" data-idx="3">
+<div class="img">
+<a href="http://xj.news.cn/2022-11/14/c_1129120507.htm" target="_blank">
+<div class="btn hide"></div>
+<img data-src="http://www.news.cn/titlepic/112912/1129126627_1668395844520_title0h.gif" alt="">
+</a>
+</div>
+<div class="tit"><a href="http://xj.news.cn/2022-11/14/c_1129120507.htm" target="_blank">逐草天山下·新疆特克斯冬季牧民转场</a></div>
+</div> 
+</div>
+</div>
+</div>
+</div>
+<div class="focus-newsText bg-white right">
+<div class="list" id="focusListNews">
+<ul>
+<li class="active"> <span><a href="http://www.news.cn/world/2022-11/14/c_1129125795.htm" target="_blank">元首外交｜中印尼命运共同体乘上“高速列车”</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="元首外交｜中印尼命运共同体乘上&ldquo;高速列车&rdquo;"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/politics/2022-11/14/c_1129126096.htm" target="_blank">时政微周刊丨总书记的一周（11月7日—13日）</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="时政微周刊丨总书记的一周（11月7日&mdash;13日）"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/world/2022-11/13/c_1129125044.htm" target="_blank">世界期待G20巴厘岛峰会为经济复苏带来信心</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="世界期待G20巴厘岛峰会为经济复苏带来信心"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/politics/2022-11/13/c_1129125623.htm" target="_blank">各地贯彻落实党的二十大精神聚力经济建设观察</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="各地贯彻落实党的二十大精神聚力经济建设观察"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/politics/xxgcdd20djs" target="_blank">二十大精神在基层丨</a><a href="http://www.news.cn/politics/2022-11/13/c_1129125249.htm" target="_blank">天津：党建引领高质量发展</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="&lt;a href='http://www.news.cn/politics/xxgcdd20djs' target='_blank'&gt;二十大精神在基层丨&lt;/a&gt;&lt;a href='http://www.news.cn/politics/2022-11/13/c_1129125249.htm' target='_blank'&gt;天津：党建引领高质量发展&lt;/a&gt;"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/politics/2022-11/13/c_1129125580.htm" target="_blank">“蓝天盛会”闭幕</a> <a href="http://www.news.cn/politics/2022-11/13/c_1129125578.htm" target="_blank">见证中国航空航天事业发展</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="&lt;a href='http://www.news.cn/politics/2022-11/13/c_1129125580.htm' target='_blank'&gt;&ldquo;蓝天盛会&rdquo;闭幕&lt;/a&gt; &lt;a href='http://www.news.cn/politics/2022-11/13/c_1129125578.htm' target='_blank'&gt;见证中国航空航天事业发展&lt;/a&gt;"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/tech/2022-11/13/c_1129125194.htm" target="_blank">天舟货运飞船将转入常态化发射 每半年一次</a><br /><a href="http://www.news.cn/tech/2022-11/14/c_1129125815.htm" target="_blank">太空“快递小哥”过硬“送货”本领如何练就</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="&lt;a href='http://www.news.cn/tech/2022-11/13/c_1129125194.htm' target='_blank'&gt;天舟货运飞船将转入常态化发射 每半年一次&lt;/a&gt;&lt;br/&gt;&lt;a href='http://www.news.cn/tech/2022-11/14/c_1129125815.htm' target='_blank'&gt;太空&ldquo;快递小哥&rdquo;过硬&ldquo;送货&rdquo;本领如何练就&lt;/a&gt;"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/world/2022-11/14/c_1129126525.htm" target="_blank">《湿地公约》第十四届缔约方大会闭幕</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="《湿地公约》第十四届缔约方大会闭幕"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/fortune/2022-11/14/c_1129125840.htm" target="_blank">我国经济总量破114万亿 高质量发展行稳致远</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="我国经济总量破114万亿 高质量发展行稳致远"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/fortune/2022-11/14/c_1129125839.htm" target="_blank">24城入选 住建部公布智能建造试点城市名单</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="24城入选 住建部公布智能建造试点城市名单"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/local/2022-11/14/c_1129126640.htm" target="_blank">追光｜这所农村中学，撑起首支国少攀岩集训队</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="追光｜这所农村中学，撑起首支国少攀岩集训队"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/politics/2022-11/14/c_1129126346.htm" target="_blank">这些宝贝，惊艳诠释“何以中国”</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="这些宝贝，惊艳诠释&ldquo;何以中国&rdquo;"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/local/2022-11/14/c_1129125819.htm" target="_blank">从新主流电影崛起看中国电影新气象</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="从新主流电影崛起看中国电影新气象"></i></i></span></li>
+<li> <span><a href="http://www.news.cn/local/2022-11/14/c_1129125934.htm" target="_blank">北方晴朗升温 南方降雨增多</a> <a href="http://www.news.cn/local/2022-11/14/c_1129125936.htm" target="_blank">江南局地有暴雨</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="&lt;a href='http://www.news.cn/local/2022-11/14/c_1129125934.htm' target='_blank'&gt;北方晴朗升温 南方降雨增多&lt;/a&gt; &lt;a href='http://www.news.cn/local/2022-11/14/c_1129125936.htm' target='_blank'&gt;江南局地有暴雨&lt;/a&gt;"></i></i></span></li>
+</ul> 
+</div>
+<div class="hot" id="focusHotNews">
+<a href="/depthobserve.htm?type=zhl" target="_blank">
+<div class="title"> </div>
+</a>
+<ul>
+<li><a href="http://www.news.cn/politics/2022-11/10/c_1129118551.htm" target="_blank">为子孙后代留下大美湿地</a></li>
+<li><a href="http://www.news.cn/comments/20221109/2b4d57c4c6604ed3950e7e116e8f071d/c.html" target="_blank">共赴“乌镇之约”，共创美好未来</a></li>
+<li><a href="http://www.news.cn/world/2022-11/11/c_1129119968.htm" target="_blank">从“最贵”中期选举看“美式民主”</a></li>
+</ul> 
+</div>
+</div>
+</div>
+</div>
+</fjtignoreurl>
+</div>
+<div class="centerImgAdv">
+<div class="part"> <ins data-ycad-slot="2264"></ins> </div>
+</div>
+<div class="centerImgAdv">
+<div class="part"> <ins data-ycad-slot="2265"></ins> </div>
+</div>
+<!--<div class="coupletAdv"><ins data-ycad-slot="2261"></ins></div>-->
+<div class="area main" id="main">
+<div class="part">
+<div class="column">
+<div class="column-left bg-white">
+<div class="list-video" id="videoList">
+<a href="/depthobserve.htm" target="_blank">
+<div class="title title-style3">
+<div class="txt">
+<div class="cn">融媒集萃</div>
+</div>
+</div>
+</a>
+<div class="list-cont">
+<div class="list-item">
+<div class="source"><a href="http://www.news.cn/depthobserve.htm?type=qqlx" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/video-logo-qqlx.png" alt="" /></a></div>
+<div class="img breath">
+<a href="http://www.news.cn/2022-11/13/c_1129125633.htm" target="_blank"> <img data-src="http://www.news.cn/titlepic/112912/1129125642_1668344902875_title0h.jpg" alt=""/></a>                
+<div class="tit">
+<a href="http://www.news.cn/2022-11/13/c_1129125633.htm" target="_blank">
+<div class="btn"></div>
+<span>向好奇心致敬：2022菠萝科学奖揭晓</span>
+</a>
+</div>
+</div>
+</div>
+<div class="list-item">
+<div class="source"><a href="" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/video-logo-xdrvlog.png" alt="" /></a></div>
+<div class="img breath">
+<a href="http://www.news.cn/2022-11/11/c_1211699957.htm" target="_blank"> <img data-src="http://www.news.cn/titlepic/112912/1129123574_1668238440240_title0h.jpg" alt=""/></a>                
+<div class="tit">
+<a href="http://www.news.cn/2022-11/11/c_1211699957.htm" target="_blank">
+<div class="btn"></div>
+<span>考古中国 闪耀小课堂｜殷墟考古：甲骨文中的妇好</span>
+</a>
+</div>
+</div>
+</div>
+<div class="list-item">
+<div class="source"><a href="http://www.xinhuanet.com/comments/jrzj/index.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/video-logo-jrzj.png" alt="" /></a></div>
+<div class="img breath">
+<a href="http://www.news.cn/comments/20221109/50fdbe88efe04d41b16ee2b2771e6166/c.html" target="_blank"> <img data-src="http://www.news.cn/titlepic/112911/1129115647_1668040939750_title0h.gif" alt=""/></a>                
+<div class="tit">
+<a href="http://www.news.cn/comments/20221109/50fdbe88efe04d41b16ee2b2771e6166/c.html" target="_blank">
+<div class="btn"></div>
+<span>每张“出警单”都是消防员的一份守护</span>
+</a>
+</div>
+</div>
+</div>
+<div class="list-item">
+<div class="source"><a href="http://www.news.cn/depthobserve.htm?type=xqn" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/video-logo-xqn.png" alt="" /></a></div>
+<div class="img breath">
+<a href="http://www.news.cn/politics/2022-11/09/c_1129112621.htm" target="_blank"> <img data-src="http://www.news.cn/titlepic/112911/1129115607_1667998199073_title0h.jpg" alt=""/></a>                
+<div class="tit">
+<a href="http://www.news.cn/politics/2022-11/09/c_1129112621.htm" target="_blank">
+<div class="btn"></div>
+<span>两位消防员的“互怼”，结局令人动容</span>
+</a>
+</div>
+</div>
+</div>
+<div class="list-item">
+<div class="source"><a href="" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/video-logo-sjdwd.png" alt="" /></a></div>
+<div class="img breath">
+<a href="http://www.news.cn/talking/2022-11/03/c_1211697330.htm" target="_blank"> <img data-src="http://www.news.cn/titlepic/112909/1129097598_1667485813871_title0h.jpg" alt=""/></a>                
+<div class="tit">
+<a href="http://www.news.cn/talking/2022-11/03/c_1211697330.htm" target="_blank">
+<div class="btn"></div>
+<span>云南小屯村关索戏：坚守中创新 走好“传承路”</span>
+</a>
+</div>
+</div>
+</div>
+<div class="list-item">
+<div class="source"><a href="http://www.news.cn/depthobserve.htm?type=tkbdj" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/video-logo-tkbdj.png" alt="" /></a></div>
+<div class="img breath">
+<a href="http://www.news.cn/tech/2022-11/04/c_1129101192.htm" target="_blank"> <img data-src="http://www.news.cn/titlepic/112910/1129101477_1667548260149_title0h.jpg" alt=""/></a>                
+<div class="tit">
+<a href="http://www.news.cn/tech/2022-11/04/c_1129101192.htm" target="_blank">
+<div class="btn"></div>
+<span>卫星调查：管不住的美国山火</span>
+</a>
+</div>
+</div>
+</div> 
+</div>
+</div>
+</div>
+<fjtignoreurl>
+<div class="column-center bg-white">
+<div class="list-focus" id="depthFocus">
+<div class="title title-style2">
+<div class="txt">
+<div class="cn">要闻聚焦</div>
+</div>
+</div>
+<style>
+.listAdv div{ background:#fff!important; color:#333!important; font-size:16px!important;font-family: "PingFang SC","Lantinghei SC","Helvetica Neue",Helvetica,Arial,"Microsoft YaHei","微软雅黑",STHeitiSC-Light,simsun,"宋体","WenQuanYi Zen Hei","WenQuanYi Micro Hei",sans-serif!important;}
+.listAdv div a{ background:#fff!important; color:#333!important; font-size:16px!important;font-family: "PingFang SC","Lantinghei SC","Helvetica Neue",Helvetica,Arial,"Microsoft YaHei","微软雅黑",STHeitiSC-Light,simsun,"宋体","WenQuanYi Zen Hei","WenQuanYi Micro Hei",sans-serif!important;}
+.adtag{display: inline-block;position: absolute;right: 0;top: 3px;z-index: 99999;color: #fff;background: #c9c9c9;padding: 0 5px;border-radius: 10px;font-size: 12px;}
+</style>
+<div class="list-cont">
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/world/2022-11/13/c_1129125740.htm" target="_blank">李克强出席第17届东亚峰会</a> <a href="http://www.news.cn/world/2022-11/14/c_1129125765.htm" target="_blank">讲话全文</a> <a href="http://www.news.cn/world/2022-11/14/c_1129125769.htm" target="_blank">会见联合国秘书长古特雷斯</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="&lt;a href='http://www.news.cn/world/2022-11/13/c_1129125740.htm' target='_blank'&gt;李克强出席第17届东亚峰会&lt;/a&gt; &lt;a href='http://www.news.cn/world/2022-11/14/c_1129125765.htm' target='_blank'&gt;讲话全文&lt;/a&gt; &lt;a href='http://www.news.cn/world/2022-11/14/c_1129125769.htm' target='_blank'&gt;会见联合国秘书长古特雷斯&lt;/a&gt;"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/politics/leaders/2022-11/13/c_1129125003.htm" target="_blank">王毅出席全球发展促进中心揭牌仪式</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="王毅出席全球发展促进中心揭牌仪式"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/politics/2022-11/12/c_1129123581.htm" target="_blank">学习贯彻党的二十大精神中央宣讲团在商务系统、</a><a href="http://www.news.cn/politics/2022-11/12/c_1129123736.htm" target="_blank">宁夏宣讲</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="&lt;a href='http://www.news.cn/politics/2022-11/12/c_1129123581.htm' target='_blank'&gt;学习贯彻党的二十大精神中央宣讲团在商务系统、&lt;/a&gt;&lt;a href='http://www.news.cn/politics/2022-11/12/c_1129123736.htm' target='_blank'&gt;宁夏宣讲&lt;/a&gt;"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://education.news.cn/20221114/1b303a475bc34fc4b66db5df674ecada/c.html" target="_blank">三部门联合发布意见：落实从业禁止制度 切实保护未成年人</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="三部门联合发布意见：落实从业禁止制度 切实保护未成年人"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://education.news.cn/20221114/6f75a8866c174272b57208c4eb92f409/c.html" target="_blank">教育部等七部门：农村义务教育学校食堂应自主经营 不得对外承包</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="教育部等七部门：农村义务教育学校食堂应自主经营 不得对外承包"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/fortune/2022-11/14/c_1129125834.htm" target="_blank">我国中小企业发展成效显著 累计培育专精特新中小企业超6万家</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="我国中小企业发展成效显著 累计培育专精特新中小企业超6万家"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/2022-11/13/c_1129125120.htm" target="_blank">新疆产棉大县采收进入尾声</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="新疆产棉大县采收进入尾声"></i></i></div>
+<div class="img"><a href="http://www.news.cn/2022-11/13/c_1129125120.htm" target="_blank"><img src="titlepic/112912/1129125120_1668325922052_title0h.jpg" border="0" alt="新疆产棉大县采收进入尾声" />
+<img src="titlepic/112912/1129125120_1668325954859_title0h.jpg" border="0" alt="新疆产棉大县采收进入尾声" />
+<img src="titlepic/112912/1129125120_1668325987467_title0h.jpg" border="0" alt="新疆产棉大县采收进入尾声" /></a>
+</div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/fortune/2022-11/14/c_1129125824.htm" target="_blank">国企着眼全球培育支柱产业</a> <a href="http://www.news.cn/fortune/2022-11/14/c_1129125810.htm" target="_blank">补链强链为产业筑基赋能</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="&lt;a href='http://www.news.cn/fortune/2022-11/14/c_1129125824.htm' target='_blank'&gt;国企着眼全球培育支柱产业&lt;/a&gt; &lt;a href='http://www.news.cn/fortune/2022-11/14/c_1129125810.htm' target='_blank'&gt;补链强链为产业筑基赋能&lt;/a&gt;"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/tech/2022-11/14/c_1129125809.htm" target="_blank">服务国家重大需求 高校科创综合实力实现跃升 成“创新中国”生力军</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="服务国家重大需求 高校科创综合实力实现跃升 成&ldquo;创新中国&rdquo;生力军"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/politics/2022-11/14/c_1129126314.htm" target="_blank">国家卫健委：11月13日新增确诊病例1794例 其中本土病例1747例</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="国家卫健委：11月13日新增确诊病例1794例 其中本土病例1747例"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/fortune/2022-11/14/c_1129125879.htm" target="_blank">从收入保障到产品溯源 保险业服务乡村覆盖面加大</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="从收入保障到产品溯源 保险业服务乡村覆盖面加大"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/local/2022-11/13/c_1129125213.htm" target="_blank">“生态种养”“科技种植”“农旅融合”……看云南稻田里的多元丰收</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="&ldquo;生态种养&rdquo;&ldquo;科技种植&rdquo;&ldquo;农旅融合&rdquo;&hellip;&hellip;看云南稻田里的多元丰收"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/local/2022-11/14/c_1129125909.htm" target="_blank">体会回收再利用的快乐，大城市的年轻人在“破烂儿”中寻宝</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="体会回收再利用的快乐，大城市的年轻人在&ldquo;破烂儿&rdquo;中寻宝"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/legal/2022-11/14/c_1129126611.htm" target="_blank">湖北省政府国资委原党委委员、副主任何庆丰接受审查调查</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="湖北省政府国资委原党委委员、副主任何庆丰接受审查调查"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/2022-11/14/c_1129126639.htm" target="_blank">英国经济第三季度环比萎缩0.2%</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="英国经济第三季度环比萎缩0.2%"></i></i></div>
+<div class="img"><a href="http://www.news.cn/2022-11/14/c_1129126639.htm" target="_blank"><img src="titlepic/112912/1129126639_1668396377103_title0h.jpg" border="0" alt="英国经济第三季度环比萎缩0.2%" />
+<img src="titlepic/112912/1129126639_1668396383999_title0h.jpg" border="0" alt="英国经济第三季度环比萎缩0.2%" />
+<img src="titlepic/112912/1129126639_1668396380734_title0h.jpg" border="0" alt="英国经济第三季度环比萎缩0.2%" /></a>
+</div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/world/2022-11/14/c_1129126371.htm" target="_blank">聚焦欧洲经济严冬之四：欧洲老年人为疫情能源双重危机所困</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="聚焦欧洲经济严冬之四：欧洲老年人为疫情能源双重危机所困"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/world/2022-11/14/c_1129125787.htm" target="_blank">美国航展飞机相撞坠毁事故致6人死亡</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="美国航展飞机相撞坠毁事故致6人死亡"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/world/2022-11/13/c_1129125749.htm" target="_blank">以色列总统授权内塔尼亚胡组建新政府</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="以色列总统授权内塔尼亚胡组建新政府"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/fortune/2022-11/13/c_1129125759.htm" target="_blank">中企助力莫桑比克实现液化天然气出口</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="中企助力莫桑比克实现液化天然气出口"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/world/2022-11/14/c_1129126318.htm" target="_blank">穆萨尔当选斯洛文尼亚首位女总统 将于12月23日开始5年任期</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="穆萨尔当选斯洛文尼亚首位女总统 将于12月23日开始5年任期"></i></i></div>
+<div class="img"></div>
+</div>
+<div class="list-item clearfix">
+<div class="tit"><span class="type">组图</span><a href="http://www.news.cn/world/2022-11/14/c_1129125890.htm" target="_blank">土耳其伊斯坦布尔发生爆炸 造成至少6人死亡81人受伤</a><i class="btn-horn-box hide"><i class="btn-horn" data-url="" data-tit="土耳其伊斯坦布尔发生爆炸 造成至少6人死亡81人受伤"></i></i></div>
+<div class="img"></div>
+</div> 
+</div>
+</div>
+</div>
+</fjtignoreurl>
+<div class="column-right bg-white">
+<div class="list-observe" id="depthObserve">
+<div class="title title-style1">
+<a href="/depthobserve.htm" target="_blank">
+<div class="txt">
+<div class="cn">深度观察</div>
+</div>
+</a>
+<a class="more" href="/depthobserve.htm" target="_blank"> 更多</a> 
+</div>
+<div class="list-cont">
+<div class="list-item clearfix">
+<div class="img breath"><a href="http://www.news.cn/politics/2022-11/12/c_1129122489.htm" target="_blank"><img data-src="http://www.news.cn/titlepic/112912/1129123783_1668245181877_title0h.JPG" alt=""></a></div>
+<div class="tit"><a href="http://www.news.cn/politics/2022-11/12/c_1129122489.htm" target="_blank">钢铁第一大省“绿色嬗变”记</a><span class="type"><a href="http://www.news.cn/depthobserve.htm?type=xhqmtt" target="_blank">新华全媒头条</a></span></div>
+</div>
+<div class="list-item clearfix">
+<div class="img breath"><a href="http://www.news.cn/local/2022-11/13/c_1129125548.htm" target="_blank"><img data-src="http://www.news.cn/titlepic/112912/1129125590_1668343170211_title0h.png" alt=""></a></div>
+<div class="tit"><a href="http://www.news.cn/local/2022-11/13/c_1129125548.htm" target="_blank">赣闽携手“逐”绿守护武夷山国家公园</a><span class="type"><a href="http://www.news.cn/depthobserve.htm?type=xhqmj" target="_blank">新华全媒+</a></span></div>
+</div>
+<div class="list-item clearfix">
+<div class="img breath"><a href="http://www.news.cn/photo/2022-11/13/c_1129125395.htm" target="_blank"><img data-src="http://www.news.cn/titlepic/112912/1129125803_1668381193405_title0h.JPG" alt=""></a></div>
+<div class="tit"><a href="http://www.news.cn/photo/2022-11/13/c_1129125395.htm" target="_blank">北京深山里的寻豹人</a><span class="type"><a href="http://www.news.cn/depthobserve.htm?type=xhqmj" target="_blank">新华全媒+</a></span></div>
+</div>
+<div class="list-item clearfix">
+<div class="img breath"><a href="http://www.news.cn/gangao/2022-11/14/c_1129126230.htm" target="_blank"><img data-src="" alt="" /></a></div>
+<div class="tit"><a href="http://www.news.cn/gangao/2022-11/14/c_1129126230.htm" target="_blank">香港山顶缆车的新篇章</a><span class="type"><a href="http://www.news.cn/gangao/index.html" target="_blank">香港故事</a></span></div>
+</div>
+<div class="list-item clearfix">
+<div class="img breath"><a href="http://www.news.cn/local/2022-11/14/c_1129125823.htm" target="_blank"><img data-src="" alt="" /></a></div>
+<div class="tit"><a href="http://www.news.cn/local/2022-11/14/c_1129125823.htm" target="_blank">“经纬之间”织就“锦绣前程” “国际纺都”浙江柯桥成长记</a><span class="type"><a href="http://mrdx.xinhuanet.com/index.htm" target="_blank">新华每日电讯</a></span></div>
+</div>
+<div class="list-item clearfix">
+<div class="img breath"><a href="http://www.news.cn/local/2022-11/13/c_1129125707.htm" target="_blank"><img data-src="http://www.news.cn/titlepic/112912/1129125799_1668380792271_title0h.jpg" alt=""></a></div>
+<div class="tit"><a href="http://www.news.cn/local/2022-11/13/c_1129125707.htm" target="_blank">武汉：小微湿地户外课堂助力培养中小学生生态环保理念</a><span class="type"><a href="http://www.news.cn/depthobserve.htm?type=xhqmj" target="_blank">新华全媒+</a></span></div>
+</div>
+<div class="list-item clearfix">
+<div class="img breath"><a href="http://www.news.cn/sports/2022-11/13/c_1129124853.htm" target="_blank"><img data-src="http://www.news.cn/titlepic/112912/1129124860_1668317645490_title0h.png" alt=""></a></div>
+<div class="tit"><a href="http://www.news.cn/sports/2022-11/13/c_1129124853.htm" target="_blank">世界杯攻略·D组——法国队能否打破“冠军魔咒”？</a><span class="type"><a href="http://www.news.cn/depthobserve.htm?type=zg" target="_blank">追光</a></span></div>
+</div>
+<div class="list-item clearfix">
+<div class="img breath"><a href="http://www.news.cn/fortune/2022-11/13/c_1129124963.htm" target="_blank"><img data-src="" alt="" /></a></div>
+<div class="tit"><a href="http://www.news.cn/fortune/2022-11/13/c_1129124963.htm" target="_blank">中国-东盟经贸合作蓬勃发展硕果累累</a><span class="type"><a href="http://www.news.cn/depthobserve.htm?type=gjgc" target="_blank">国际观察</a></span></div>
+</div>
+<div class="list-item clearfix">
+<div class="img breath"><a href="http://www.news.cn/politics/2022-11/13/c_1129125631.htm" target="_blank"><img data-src="" alt="" /></a></div>
+<div class="tit"><a href="http://www.news.cn/politics/2022-11/13/c_1129125631.htm" target="_blank">玉米地里的“千万产业”</a><span class="type"><a href="http://www.news.cn/depthobserve.htm?type=xhqmj" target="_blank">新华全媒+</a></span></div>
+</div> 
+</div>
+<div class="list-solo0"> <a href="https://hudong.app.xinhuanet.com/wqzbss/index.html" target="_blank"> <img data-src="/2022newhomepro/images/pic09.png" alt="" /></a> </div>
+<div class="list-solo1"> <a href="http://www.news.cn/info/xbsyzg/index.html" target="_blank"> <img data-src="/2022newhomepro/images/pic10.png" alt="" /></a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="centerImgAdv">
+<div class="part"> <ins data-ycad-slot="2281"></ins> </div>
+</div>
+<div class="topImgAdv">
+<div class="part clearfix">
+<div class="topImgAdv-left left"> <ins data-ycad-slot="2259"></ins> </div>
+<div class="topImgAdv-center left"> <ins data-ycad-slot="2266"></ins> </div>
+<div class="topImgAdv-right right"> <ins data-ycad-slot="2260"></ins> </div>
+</div>
+</div>
+<div id="bottom">
+<div class="area languages">
+<div class="part bg-white">
+<div class="languages-nav"> <a href="https://english.news.cn/home.htm" target="_blank" class="active">English</a> <a href="https://spanish.news.cn/index.htm" target="_blank">Español</a> <a href="https://french.news.cn/index.htm" target="_blank">Français</a> <a href="https://arabic.news.cn/index.htm" target="_blank">عربى</a> <a href="https://russian.news.cn/index.htm" target="_blank">Русский язык</a> <a href="https://jp.news.cn/index.htm" target="_blank">日本語</a> <a href="https://kr.news.cn/index.htm" target="_blank">한국어</a> <a href="https://german.news.cn/index.htm" target="_blank">Deutsch</a> <a href="https://portuguese.news.cn/index.htm" target="_blank">Português</a> </div>
+<div class="iframe-cont">
+<iframe data-src="https://english.news.cn/xhwsy_iframe/index.html" frameborder="0" scrolling="no" width="100%" height="730" id="languagesIframe"></iframe>
+</div>
+</div>
+</div>
+<div class="area xhWindow xh90">
+<div class="part">
+<div class="title title-style4">
+<div class="txt">
+<a href="http://203.192.6.89/xhs/" target="_blank">
+<div class="cn">新华之窗</div>
+<div class="en">WINDOW TO XINHUA</div>
+</a>
+</div>
+<div class="xh90logo"></div>
+<span class="service"> <a href="http://nis.xinhuanet.com/" target="_blank">新闻信息服务</a> </span><span class="more"> <a href="http://www.xinhuanet.com/xhs/xhszyhd.htm" target="_blank">更多></a> </span> 
+</div>
+<div class="xhWindow-top clearfix">
+<ul class="xhWindow-list clearfix left">
+<li><a href="http://www.news.cn/2022-07/08/c_1128817130.htm" target="_blank">第五届金砖国家媒体高端论坛举行 黄坤明出席并致辞</a></li>
+<li><a href="http://www.news.cn/politics/2022-06/07/c_1128720911.htm" target="_blank">傅华任新华社社长 吕岩松任新华社总编辑</a></li>
+<li><a href="http://www.news.cn/politics/2022-11/02/c_1129096530.htm" target="_blank">“红厅论坛：读懂中国共产党二十大”主题研讨会在北京举行</a></li>
+<li><a href="http://www.news.cn/politics/2022-11/02/c_1129096546.htm" target="_blank">读懂中共二十大 读懂中国共产党</a></li>
+<li><a href="http://www.xinhuanet.com/2022-04/22/c_1128585592.htm" target="_blank">新华社联手中国作协推出5G线上阅读平台和线下体验馆</a></li>
+<li><a href="http://www.news.cn/politics/2022-03/10/c_1128457395.htm" target="_blank">新华网XR看报告：走心“绘景”，展现美好“愿景”</a></li>
+</ul>
+<div class="xhWindow-nav clearfix right"> <a href="http://203.192.6.89/xhs/static/e11272/11272.htm" target="_blank">新华社介绍</a> <a href="http://paper.news.cn/" target="_blank">社办报刊</a> <a href="http://www.news.cn/enterprise/xhsmzppgc/index.html" target="_blank">民族品牌工程</a> <a href="http://www.news.cn/xmtjz/index.htm" target="_blank">新媒体矩阵</a> </div>
+</div>
+<div class="xhWindow-govern">
+<ul id="xhWindowGovern">
+<li> <a href="http://mrdx.xinhuanet.com/index.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo01.jpg" alt="" /></a> </li>
+<li> <a href="http://jjckb.xinhuanet.com/index.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo02.jpg" alt="" /></a> </li>
+<li> <a href="http://lw.xinhuanet.com/index.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo03.jpg" alt="" /></a> </li>
+<li> <a href="http://www.banyuetan.org/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo04.jpg" alt="" /></a> </li>
+<li> <a href="http://www.cankaoxiaoxi.com/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo05.jpg" alt="" /></a> </li>
+<li> <a href="http://www.cs.com.cn/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo06.jpg" alt="" /></a> </li>
+<li> <a href="https://www.cnstock.com/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo07.jpg" alt="" /></a> </li>
+<li> <a href="http://www.chnphoto.cn/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo08.jpg" alt="" /></a> </li>
+<li> <a href="http://www.xinhuapub.com/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo09.jpg" alt="" /></a> </li>
+<li> <a href="/globe/globe.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo10.jpg" alt="" /></a> </li>
+<li> <a href="https://www.lwinst.com/Liems/web/getMoreJournal.htm?type=02" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo12.jpg" alt="" /></a> </li>
+<li> <a href="http://www.chinatopbrands.net/index.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo13.jpg" alt="" /></a> </li>
+<li> <a href="http://www.scimedia.cn/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo14.jpg" alt="" /></a> </li>
+<li> <a href="http://mrdx.xinhuanet.com/index.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo01.jpg" alt="" /></a> </li>
+<li> <a href="http://jjckb.xinhuanet.com/index.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo02.jpg" alt="" /></a> </li>
+<li> <a href="http://lw.xinhuanet.com/index.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo03.jpg" alt="" /></a> </li>
+<li> <a href="http://www.banyuetan.org/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo04.jpg" alt="" /></a> </li>
+<li> <a href="http://www.cankaoxiaoxi.com/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo05.jpg" alt="" /></a> </li>
+<li> <a href="http://www.cs.com.cn/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo06.jpg" alt="" /></a> </li>
+<li> <a href="https://www.cnstock.com/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo07.jpg" alt="" /></a> </li>
+<li> <a href="http://www.chnphoto.cn/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo08.jpg" alt="" /></a> </li>
+<li> <a href="http://www.xinhuapub.com/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo09.jpg" alt="" /></a> </li>
+<li> <a href="/globe/globe.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo10.jpg" alt="" /></a> </li>
+<li> <a href="https://www.lwinst.com/Liems/web/getMoreJournal.htm?type=02" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo12.jpg" alt="" /></a> </li>
+<li> <a href="http://www.chinatopbrands.net/index.htm" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo13.jpg" alt="" /></a> </li>
+<li> <a href="http://www.scimedia.cn/" target="_blank"><img data-src="http://www.news.cn/2022newhomepro/images/logo14.jpg" alt="" /></a> </li>
+</ul>
+</div>
+</div>
+</div>
+<!-- 底部-->
+<div class="area foot" id="foot">
+<div class="foot-upper">
+<div class="part clearfix">
+<div class="foot-upper-name">相关链接</div>
+<div class="foot-upper-links">
+<a href="http://www.ccdi.gov.cn/" target="_blank">中央纪委</a> <a href="http://www.qizhiwang.org.cn/" target="_blank">旗帜网</a> <a href="http://www.idcpc.org.cn/" target="_blank">中联部</a> <a href="http://www.zytzb.gov.cn/html/index.html" target="_blank">统战部</a> <a href="http://www.scopsr.gov.cn/" target="_blank">中编办</a> <a href="http://www.scio.gov.cn/" target="_blank">新闻办</a> <a href="http://www.locpg.hk/index.htm" target="_blank">香港中联办</a> <a href="http://www.zlb.gov.cn/index.htm" target="_blank">澳门中联办</a> <a href="http://www.cdpf.org.cn/" target="_blank">中国残联</a> <a href="http://www.cflac.org.cn/" target="_blank">中国文联</a> <a href="http://www.zg.org.cn/" target="_blank">致公党</a> <a href="http://www.mj.org.cn/" target="_blank">民进</a> <a href="http://www.tibet.cn/" target="_blank">中国西藏网</a> <a href="http://www.creditchina.gov.cn/" target="_blank">信用中国</a> <a href="http://www.qstheory.cn/" target="_blank">求是网</a> 
+<!--<a href="http://rencai.people.com.cn/" target="_blank">中国人才网</a>--> 
+<a href="http://www.people.com.cn/" target="_blank">人民网</a> <a href="http://www.china.com.cn/" target="_blank">中国网</a> <a href="http://www.cntv.cn/" target="_blank">CNTV</a> <a href="http://www.chinadaily.com.cn/" target="_blank">中国日报</a> <a href="http://www.cri.cn/" target="_blank">国际在线</a> <a href="http://www.youth.cn/" target="_blank">中青网</a> <a href="http://www.ce.cn/" target="_blank">中经网</a> <a href="http://www.taiwan.cn/" target="_blank">中国台湾网</a> <a href="http://www.cnr.cn/" target="_blank">央广网</a> <a href="http://www.gmw.cn/" target="_blank">光明网</a> <a href="http://www.chinanews.com/" target="_blank">中新网</a> 
+<!--<a href="http://imgs.news.cn/icon/home/asianet.htm" target="_blank">亚洲网</a>--> 
+<a href="http://www.dangjian.cn/" target="_blank">党建网</a> <a href="http://www.k618.cn/" target="_blank">未来网</a> <a href="http://www.kaiwind.com/" target="_blank">凯风网</a> 
+</div>
+</div>
+</div>
+<div class="foot-cont">
+<div class="part">
+<p>
+新华社主办 版权所有：新华网股份有限公司 Copyright © 2000- 
+<script>document.write(new Date().getFullYear())</script> XINHUANET.com All Rights Reserved. 
+</p>
+<p>本站所刊登的新华社及新华网各种新闻﹑信息和各种专题专栏资料，均为新华网版权所有，未经协议授权禁止下载使用。</p>
+<p> <a href="http://203.192.6.89/xhs/" target="_blank">新华社简介</a> | <a href="http://www.xinhuanet.ltd/" target="_blank">公司官网</a> | <a href="company/contact-us.htm" target="_blank">联系我们</a> | <a href="linktous.htm" target="_blank">我要链接</a> | <a href="company/copyright.htm" target="_blank">版权声明</a> | <a href="company/legal.htm" target="_blank">法律顾问</a> | <a href="xwhggfw/index.htm" target="_blank">广告服务</a> | <a href="http://www.news-tech.cn/" target="_blank">技术服务中心</a> | <a href="https://yun.news.cn" target="_blank">新华云</a> | 违法和不良信息举报电话：（010）63070940</p>
+<p> <a href="http://www.news.cn/downloads/20220112/certificates/certificate-01.jpg" target="_blank">互联网新闻信息许可证10120170002 </a> | <a href="http://www.news.cn/downloads/20220112/certificates/certificate-02.jpg" target="_blank">增值电信业务经营许可证B1.B2-20100053</a> | <a href="http://www.news.cn/downloads/20220112/certificates/certificate-03.jpg" target="_blank">广播电视节目制作经营许可证（京）字第01567号</a> | <a href="http://www.news.cn/downloads/20220112/certificates/certificate-04.jpg" target="_blank">信息网络传播视听节目许可证0103020</a> <br />
+<a href="http://www.news.cn/downloads/20220112/certificates/certificate-05.jpg" target="_blank">网络文化经营许可证京网文【2020】5690-1104号</a> | <a href="http://www.news.cn/downloads/20220112/certificates/certificate-06.jpg" target="_blank">网络出版服务许可证（京）字第133号</a> | <a href="http://www.news.cn/downloads/20220112/certificates/certificate-07.jpg" target="_blank"> 京ICP证010042号</a> | <a href="http://www.news.cn/downloads/20220112/certificates/certificate-08.jpg" target="_blank">互联网药品信息服务资格证书（京）-非经营性-2015-0109</a> <br />
+<img class="foot-ga" data-src="http://www.news.cn/2022newhomepro/images/foot-ga.png" /> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000015" target="_blank">京公网安备：11000002000015号 </a> <a href="/newscenter/2008-02/22/content_7647209_1.htm" target="_blank">中国互联网视听节目服务自律公约 </a> <a href="https://ss.knet.cn/verifyseal.dll?sn=2011062700100010834&amp;ct=df&amp;pa=838025" target="_blank">可信网站认证 </a> 
+</p>
+<div class="foot-gs"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="area fixedNav hide">
+<div class="part"> <a class="fixedNav-item fixedNav-item-recommend active" href="/home.htm" target="_blank"><i class="icon"></i><i class="cn">首页</i></a> <a class="fixedNav-item fixedNav-item-news" href="/politicspro/" target="_blank"><i class="icon"></i><i class="cn">时政</i></a> <a class="fixedNav-item fixedNav-item-world" href="/worldpro/" target="_blank"><i class="icon"></i><i class="cn">国际</i></a> <a class="fixedNav-item fixedNav-item-fortune" href="/fortunepro/" target="_blank"><i class="icon"></i><i class="cn">财经</i></a> <a class="fixedNav-item fixedNav-item-video" href="/videopro/" target="_blank"><i class="icon"></i><i class="cn">视频</i></a> <a class="fixedNav-item fixedNav-item-richMedia" href="/multimediapro/" target="_blank"><i class="icon"></i><i class="cn">富媒体</i></a> <a class="fixedNav-item fixedNav-item-technology" href="/techpro/" target="_blank"><i class="icon"></i><i class="cn">科技</i></a> <a class="fixedNav-item fixedNav-item-culture" href="/culturepro/" target="_blank"><i class="icon"></i><i class="cn">文化</i></a> <a class="fixedNav-item fixedNav-item-health" href="/health/" target="_blank"><i class="icon"></i><i class="cn">健康</i></a> <a class="fixedNav-item fixedNav-item-military" href="/milpro/" target="_blank"><i class="icon"></i><i class="cn">军事</i></a> <a class="fixedNav-item fixedNav-item-thinkerTank" href="/sikepro/" target="_blank"><i class="icon"></i><i class="cn">思客智库</i></a> <a class="fixedNav-item fixedNav-item-govern" href="/governmentpro/" target="_blank"><i class="icon"></i><i class="cn">政务</i></a> <a class="fixedNav-item fixedNav-item-business" href="/businesspro/" target="_blank"><i class="icon"></i><i class="cn">商务</i></a> </div>
+</div>
+<div class="audioBox hide" id="audioBox"></div>
+<div class="ie-tips hide" id="ieTips">
+由于您的浏览器版本过低，导致页面无法正常显示 。请您使用最新版IE或其他浏览器。
+<div class="ie-tips-close" id="ieTipsClose"></div>
+</div>
+<fjtignoreurl>
+<script src="/2022newhomepro/scripts/index.js"></script> 
+</fjtignoreurl>
+<fjtignoreurl>
+<script src="//a2.news.cn/js/xadndelayed.js" type="text/javascript"></script> 
+</fjtignoreurl>
+<script>
+// 动态插入script标签 
+function createScript(url, callback) {
+var oScript = document.createElement('script');
+oScript.type = 'text/javascript';
+oScript.async = true;
+oScript.defer = true;
+oScript.charset="utf-8";
+oScript.src = url;
+/* 
+** script标签的onload和onreadystatechange事件 
+** IE6/7/8支持onreadystatechange事件 
+** IE9/10支持onreadystatechange和onload事件 
+** Firefox/Chrome/Opera支持onload事件 
+*/
+
+// 判断IE8及以下浏览器 
+var isIE = !-[1,];
+if (isIE) {
+
+oScript.onreadystatechange = function () {
+ if (this.readyState == 'loaded' || this.readyState == 'complete') {
+callback();
+ }
+}
+} else {
+// IE9及以上浏览器，Firefox，Chrome，Opera 
+oScript.onload = function () {
+ callback();
+}
+}
+document.body.appendChild(oScript);
+}
+createScript('//wza.news-tech.cn/dist/aria.js?appid=7c11fb3e5d5e6bc07fc782d63ab71188', function () {
+console.log('OK');
+});
+
+</script>
+<div style="display:none"><div id="fwl">010020010010000000000000011200000000000000</div><script type="text/javascript" src="//webd.home.news.cn/webdig.js?z=1"></script><script type="text/javascript">wd_paramtracker("_wdxid=010020010010000000000000011200000000000000")</script><noscript><img src="//webd.home.news.cn/1.gif?z=1&_wdxid=010020010010000000000000011200000000000000" border="0" /></noscript></div>   </body>
+</html>

@@ -160,7 +160,6 @@ int beginRequest(int connfd){
         while((readSize = recv(connfd, finalMessage, MAXLINE, 0)) > 0){
             CLRFCount = 0;
             strncpy(message, finalMessage, readSize);
-            
             while(strstr(message, "\r\n\r\n") != NULL){
                 CLRFCount += 1;
                 if(CLRFCount == 1){
@@ -186,6 +185,7 @@ int beginRequest(int connfd){
         int errNo;
         int check400; 
         int keepAlive;
+        printf("%s", message);
         check400 = sscanf(message, "%s %s %s %s", method, URI, version, test);
         for(int i=0; message[i]; i++){
             lowerCaseMessage[i] = tolower(message[i]);

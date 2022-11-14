@@ -1,0 +1,193 @@
+/* Colored panels */
+.panel-orange {
+    width: 100%; margin: 25px auto 0;
+    min-width: 200px;max-width: 792px;
+    color:#C60;
+}
+.panel-orange .hd .c,
+.panel-orange .ft .c { height: 8px; font-size: 1px; }
+
+.panel-orange .hd {
+    background: transparent url(//images.videolan.org/images/panel-orange/tl.gif) no-repeat 0 0;
+    margin-right: 8px; /* space for right corner */
+}
+.panel-orange .hd .c {
+    background: transparent url(//images.videolan.org/images/panel-orange/tr.gif) no-repeat right;
+    margin-right: -8px; /* space for right corner */
+}
+
+.panel-orange .bd {
+    background: transparent url(//images.videolan.org/images/panel-orange/ml.gif) repeat-y 0 0;
+    margin-right: 8px;
+}
+.panel-orange .bd .c {
+    margin-right: -8px;
+    padding: 10px;
+    background: transparent url(//images.videolan.org/images/panel-orange/mr.gif) repeat-y right;
+}
+ 
+.panel-orange .ft {
+    background: transparent url(//images.videolan.org/images/panel-orange/bl.gif) no-repeat 0 0;
+    margin-right: 8px;
+}
+.panel-orange .ft .c {
+    background: transparent url(//images.videolan.org/images/panel-orange/br.gif) no-repeat right;
+    margin-right: -8px;
+}
+
+.panel-orange-bullet {     padding: 0;line-height: 19px; }
+.panel-orange-bullet li {
+    background: url(//images.videolan.org/images/bullet-orange.png) 0px 1px no-repeat;
+    padding: 0 0 0px 20px;
+    margin-bottom: 4px;
+}
+
+.panel-orange h1 { margin: -8px 0 0;padding: 0 0 4px;
+           color: #C60;    font-size: 17px;font-weight: bold; 
+}
+.panel-orange p { margin: 0; padding: 0; }
+.panel-orange a, .panel-orange a:visited { color: #C60; }
+.panel-orange a:hover, .panel-orange a:active { color: #000; }
+
+
+.panel-blue {
+    width: 100%;margin: 25px auto 0;
+    min-width: 200px;max-width: 792px;
+    color: #039;
+}
+
+.panel-blue .hd .c,
+.panel-blue .ft .c { height: 8px; font-size: 1px; }
+
+.panel-blue .hd {
+    background: transparent url(//images.videolan.org/images/panel-blue/tl.gif) no-repeat 0 0;
+    margin-right: 8px; /* space for right corner */
+}
+.panel-blue .hd .c {
+    background: transparent url(//images.videolan.org/images/panel-blue/tr.gif) no-repeat right;
+    margin-right: -8px; /* space for right corner */
+}
+
+.panel-blue .bd {
+    background: transparent url(//images.videolan.org/images/panel-blue/ml.gif) repeat-y 0 0;
+    margin-right: 8px;
+}
+.panel-blue .bd .c {
+    margin-right: -8px;
+    padding: 10px;
+    background: transparent url(//images.videolan.org/images/panel-blue/mr.gif) repeat-y right;
+}
+
+.panel-blue .ft {
+    background: transparent url(//images.videolan.org/images/panel-blue/bl.gif) no-repeat 0 0;
+    margin-right: 8px;
+}
+.panel-blue .ft .c {
+    background: transparent url(//images.videolan.org/images/panel-blue/br.gif) no-repeat right;
+    margin-right: -8px;
+}
+
+.panel-blue-bullet { padding: 0 0 20px 0;line-height: 19px;}
+.panel-blue-bullet li {
+    background: url(//images.videolan.org/images/bullet-blue.png) 0px 1px no-repeat;
+    padding: 0 0 0px 20px;
+    margin-bottom: 4px;
+}
+
+.panel-blue h1 { margin: -8px 0 0; padding: 0 0 4px; 
+         color: #2D58AE; font-size: 17px; font-weight: bold;
+}
+.panel-blue p { margin: 0;padding: 0; }
+.panel-blue hr { border: 1px solid #D4E0F7; width: 80%; }
+.panel-blue a, .panel-blue a:visited { color: #039; }
+.panel-blue a:hover, .panel-blue a:active { color: #000; }
+
+.panel-gray {
+     width: 100%; margin: 25px auto 0;
+    min-width: 200px; max-width: 792px;
+    color:#333;
+}
+
+.panel-gray .hd .c,
+.panel-gray .ft .c { height: 8px; font-size: 1px;}
+
+.panel-gray .hd {
+    background: transparent url(//images.videolan.org/images/panel-gray/tl.gif) no-repeat 0 0;
+    margin-right: 8px; /* space for right corner */
+}
+.panel-gray .hd .c {
+    background: transparent url(//images.videolan.org/images/panel-gray/tr.gif) no-repeat right;
+    margin-right: -8px; /* space for right corner */
+}
+
+.panel-gray .bd {
+    background: transparent url(//images.videolan.org/images/panel-gray/ml.gif) repeat-y 0 0;
+    margin-right: 8px;
+}
+.panel-gray .bd .c {
+    margin-right: -8px;
+    padding: 10px;
+    background: transparent url(//images.videolan.org/images/panel-gray/mr.gif) repeat-y right;
+}
+ 
+.panel-gray .ft {
+    background: transparent url(//images.videolan.org/images/panel-gray/bl.gif) no-repeat 0 0;
+    margin-right: 8px;
+}
+.panel-gray .ft .c {
+    background: transparent url(//images.videolan.org/images/panel-gray/br.gif) no-repeat right;
+    margin-right: -8px;
+}
+
+.panel-gray-bullet { padding: 0; line-height: 19px; }
+.panel-gray-bullet li {
+    background: url(//images.videolan.org/images/bullet-black.png) 0px 1px no-repeat;
+    padding: 0 0 0px 20px;
+    margin-bottom: 4px;
+}
+
+.panel-gray h1 { margin: -8px 0 0; padding: 0 0 4px; 
+         color: #75818A; font-size: 17px;font-weight: bold;
+}
+.panel-gray p {    margin: 0; padding: 0; }
+.panel-gray a, .panel-gray a:visited { color: #2D58AE; }
+.panel-gray a:hover, .panel-gray a:active { color: #000; }
+
+.panel-green {
+    width: 100%; margin: 25px auto 0;
+    min-width: 200px;max-width: 792px;
+    color:#4e9a06;
+}
+.panel-green hr { border: 1px solid #4e9a06; width: 80%; margin: 0 auto; }
+.panel-green .hd .c,
+.panel-green .ft .c { height: 8px; font-size: 1px; }
+
+.panel-green .hd {
+    background: transparent url(//images.videolan.org/images/panel-green/tl.gif) no-repeat 0 0;
+    margin-right: 8px; /* space for right corner */
+}
+.panel-green .hd .c {
+    background: transparent url(//images.videolan.org/images/panel-green/tr.gif) no-repeat right;
+    margin-right: -8px; /* space for right corner */
+}
+
+.panel-green .bd {
+    background: transparent url(//images.videolan.org/images/panel-green/ml.gif) repeat-y 0 0;
+    margin-right: 8px;
+}
+.panel-green .bd .c {
+    margin-right: -8px;
+    padding: 10px;
+    background: transparent url(//images.videolan.org/images/panel-green/mr.gif) repeat-y right;
+}
+ 
+.panel-green .ft {
+    background: transparent url(//images.videolan.org/images/panel-green/bl.gif) no-repeat 0 0;
+    margin-right: 8px;
+}
+.panel-green .ft .c {
+    background: transparent url(//images.videolan.org/images/panel-green/br.gif) no-repeat right;
+    margin-right: -8px;
+}
+
+.panel-gree

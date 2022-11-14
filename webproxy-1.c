@@ -115,7 +115,6 @@ int main(int argc, char **argv)
         fwrite("www.google.com\n", 1, strlen("www.google.com\n"), createBlackList);
         fwrite("mail.yahoo.com\n", 1, strlen("mail.yahoo.com\n"), createBlackList);
         fwrite("157.240.28.35\n", 1, strlen("157.240.28.35\n"), createBlackList);
-        fwrite("ajax.googleapis.com\n", 1, strlen("ajax.googleapis.com\n"), createBlackList);
         fclose(createBlackList);
     }
 
@@ -213,7 +212,7 @@ int beginRequest(int connfd, int timeout)
     defaultTimeout.tv_sec = 120;
     defaultTimeout.tv_usec = 0;
     int stopTheLoop = 0;
-    setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&defaultTimeout, sizeof(defaultTimeout));
+    //setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&defaultTimeout, sizeof(defaultTimeout));
     // int retval = select(connfd+1, &testingTimeout, NULL, NULL, &timeAlive);
     if (forceStopChildren == 1)
     {
@@ -228,7 +227,7 @@ int beginRequest(int connfd, int timeout)
     finalMessage = malloc(MAXLINE);
     while (1)
     {
-        setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
+        setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&defaultTimeout, sizeof(defaultTimeout));
         while ((readSize = recv(connfd, finalMessage, MAXLINE, 0)) > 0)
         {
             CLRFCount = 0;
@@ -272,7 +271,7 @@ int beginRequest(int connfd, int timeout)
         if (strstr(lowerCaseMessage, "connection: keep-alive") != NULL && forceStopChildren == 0)
         {
             keepAlive = 1;
-            setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
+            //setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
         }
         else if (strstr(lowerCaseMessage, "connection: close") != NULL || forceStopChildren == 1)
         {
@@ -284,7 +283,7 @@ int beginRequest(int connfd, int timeout)
             if (strcmp(version, "HTTP/1.1") == 0)
             {
                 keepAlive = 1;
-                setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
+                //setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
             }
             else
             {
@@ -345,7 +344,7 @@ int beginRequest(int connfd, int timeout)
             {
                 printf("error received while transmitting file\n");
             }
-            if (keepAlive == 0)
+            if (keepAlive == 0 || keepAlive == 1)
             {
                 printf("Client connection closed.\n");
                 free(finalMessage);
@@ -353,7 +352,8 @@ int beginRequest(int connfd, int timeout)
             }
         }
         memset(&message, 0, MAXLINE);
-        if (keepAlive == 0)
+        memset(&finalMessage, 0, MAXLINE);
+        if (keepAlive == 0 || keepAlive == 1)
         {
             printf("Client connection closed.\n");
             free(finalMessage);
@@ -648,8 +648,6 @@ int checkBlacklist(char *destHostname, char *IP, char *URI, char *version, int k
 }
 
 
-
-
 int sendPackage(int connfd, char* package, int packageLength){
     ssize_t saveLength = 0;
     //send(connfd, finalMessage + header_length, readSize - header_length, 0);
@@ -657,7 +655,7 @@ int sendPackage(int connfd, char* package, int packageLength){
     
     while(saveLength != packageLength){
         saveLength += send(connfd, package+saveLength, packageLength-saveLength, 0);
-        printf("%ld\n", saveLength);
+        //printf("%ld\n", saveLength);
     }
 
 
@@ -665,13 +663,13 @@ int sendPackage(int connfd, char* package, int packageLength){
 }
 
 
-
-
-
-
 int attemptRequest(int connfd, char *URI, char *version, char *request, int keepalive, int requestSize, int URILength, int timeout)
 {
     // printf("%s\n", request);
+    if(strstr(URI, "https://") != NULL){
+        checkMessage(connfd, "GET", URI, version, 403, keepalive);
+        return -1;
+    }
     struct timeval timeAlive;
     timeAlive.tv_sec = 60;
     timeAlive.tv_usec = 0;
@@ -808,8 +806,8 @@ int attemptRequest(int connfd, char *URI, char *version, char *request, int keep
     char *request3 = strstr(request2, "/");
     char request4[MAXLINE];
     // printf("%s\n", request3);
-    snprintf(request4, MAXLINE, "GET %s HTTP/1.0\r\nHost: %s\r\nConnection: close\r\n\r\n", request3, hostbuffer2);
-    // printf("%s", request4);
+    snprintf(request4, MAXLINE, "GET %s HTTP/1.0\r\nHost: %s\r\nConnection: keep-alive\r\n\r\n", request3, hostbuffer2);
+    printf("%s", request4);
     if ((test = send(sockfd2, request4, MAXLINE, 0)) < 0)
     {
         perror("testErrorSend");
@@ -849,10 +847,9 @@ int attemptRequest(int connfd, char *URI, char *version, char *request, int keep
     while (1)
     {
 
-        setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
+        //setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
         while ((readSize = recv(sockfd2, finalMessage, MAXLINE, 0)) > 0 && contentLength > 0)
         {
-            int sendSize = 0;
             CLRFCount = 0;
             // printf("%d\n", readSize);
             strncpy(message, finalMessage, readSize);
@@ -893,18 +890,16 @@ int attemptRequest(int connfd, char *URI, char *version, char *request, int keep
                     int header_length = check - finalMessage;
                     if (noCache == 0)
                     {
-                        send(connfd, contentHeader, strlen(contentHeader), 0);
-                        //sendPackage(connfd, contentHeader, strlen(contentHeader));
+                        //send(connfd, contentHeader, strlen(contentHeader), 0);
+                        sendPackage(connfd, contentHeader, strlen(contentHeader));
                         fwrite(finalMessage + header_length, 1, readSize - header_length, fp);
-
-                        
-                        send(connfd, finalMessage + header_length, readSize - header_length, 0);
-                        //sendPackage(connfd, finalMessage + header_length, readSize - header_length);
+                        //send(connfd, finalMessage + header_length, readSize - header_length, 0);
+                        sendPackage(connfd, finalMessage + header_length, readSize - header_length);
                     }
                     else
                     {
-                        send(connfd, finalMessage, readSize, 0);
-                        //sendPackage(connfd, finalMessage, readSize);
+                        //send(connfd, finalMessage, readSize, 0);
+                        sendPackage(connfd, finalMessage, readSize);
                     }
                     contentLength -= (readSize - header_length);
                     inBody = 1;
@@ -917,17 +912,16 @@ int attemptRequest(int connfd, char *URI, char *version, char *request, int keep
 
             if (inBody == 1 && CLRFCount == 0)
             {
+                if(readSize > contentLength){
+                    readSize = contentLength;
+                }
                 if (noCache == 0)
                 {
                     fwrite(finalMessage, 1, readSize, fp);
                 }
                 // printf("%s\n", finalMessage);
-                int sendSize = readSize;
-                while(sendSize > 0){
-
-                }
-                send(connfd, finalMessage, readSize, 0);
-                //sendPackage(connfd, finalMessage, readSize);
+                //send(connfd, finalMessage, readSize, 0);
+                sendPackage(connfd, finalMessage, readSize);
                 contentLength -= readSize;
             }
             if (contentLength == 0)
@@ -948,12 +942,13 @@ int attemptRequest(int connfd, char *URI, char *version, char *request, int keep
         }
         lock.l_type = F_UNLCK;
         fcntl(fileno(fp), F_SETLK, &lock);
+        printf("write lock undone.\n");
         if(keepalive == 0){
             timeAlive.tv_sec = 0;
-            setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
+            //setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
         }else{
             timeAlive.tv_sec = 10;
-            setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
+            //setsockopt(connfd, SOL_SOCKET, SO_RCVTIMEO, (const char *)&timeAlive, sizeof(timeAlive));
         }
         bzero(path, MAXLINE);
         close(sockfd2);
